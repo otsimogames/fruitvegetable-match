@@ -14,10 +14,10 @@ gulp.task('build', () => {
             'img:prod',
             'js:prod',
             'i18n_img:prod',
-            'general_data:prod'
+            'otsimojson:prod',
+            'settingsjson:prod'
         ],
         'html:prod'
-        //   'rev:prod'
     );
 });
 
@@ -34,7 +34,8 @@ gulp.task('default', () => {
             'js:dev',
             'html:dev',
             'i18n_img:dev',
-            'general_data:dev'
+            'otsimojson:dev',
+            'settingsjson:dev'
         ],
         'watch',
         'serve'

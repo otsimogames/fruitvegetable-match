@@ -14,12 +14,13 @@ export default (() => {
     };
 
     let globs = {
-        js: path.join(cfg.paths.src.root, 'src', 'js', path.sep),
+        js: path.join(cfg.paths.src.root, 'node_modules', 'otsimo-matching-game', path.sep),
         img: path.join(cfg.paths.src.root, 'src', 'img', '**', '*'),
         data: path.join(cfg.paths.src.root, 'src', 'data', '**', '*.json'),
         audio: path.join(cfg.paths.src.root, 'src', 'audio', '**', '*'),
         i18n_img: path.join(cfg.paths.src.root, 'i18n', '**', '*.png'),
-        general_data: path.join(cfg.paths.src.root, '*.json'),
+        otsimojson: path.join(cfg.paths.src.root, 'otsimo.json'),
+        settingsjson: path.join(cfg.paths.src.root, 'node_modules', 'otsimo-matching-game', 'settings.json'),
         i18n: path.join(cfg.paths.src.root, 'i18n')
     };
 

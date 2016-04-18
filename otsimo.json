@@ -1,15 +1,15 @@
 {
-    "unique_name": "core-matching-game",
-    "version": "---",
+    "unique_name": "sample-match",
+    "version": "1.0.0",
     "main": "index.html",
-    "licence": "Apache 2",
+    "licence": "Apache-2.0",
     "languages": [
-        "en"
+        "tr"
     ],
-    "default_language": "en",
+    "default_language": "tr",
     "developer_name": "Otsimo",
-    "homepage": "https://github.com/otsimo/core-matching-game",
-    "repository": "git@github.com:otsimo/core-matching-game.git",
+    "homepage": "https://github.com/otsimo/memory-game-colors",
+    "repository": "git@github.com:otsimo/memory-game-colors.git",
     "authors": [
         {
             "name": "Sercan Değirmenci",
@@ -22,7 +22,7 @@
     "metadata": [
         {
             "language": "en",
-            "visible_name": "Core Matching Game",
+            "visible_name": "Color Matching Game",
             "summary": "a short description",
             "description": "an awesome game, this is long description",
             "keywords": [
@@ -32,12 +32,32 @@
             "logo": "i18n/en/logo_en_450x300.png",
             "icon": "i18n/en/icon_en_512.png",
             "images": [
-                "i18n/en/screenshoot1.png",
-                "i18n/en/screenshoot2.png"
+                "i18n/en/scr1.jpg",
+                "i18n/en/scr1.jpg"
             ],
             "assets": [
                 "img/en",
                 "audio/en"
+            ]
+        },
+        {
+            "language": "tr",
+            "visible_name": "Renk Hafıza Oyunu",
+            "summary": "a short description",
+            "description": "an awesome game, this is long description",
+            "keywords": [
+                "hafıza",
+                "renk"
+            ],
+            "logo": "i18n/tr/mem-color-logo.png",
+            "icon": "i18n/tr/mem-color-icon.png",
+            "images": [
+                "i18n/tr/scr1.jpg",
+                "i18n/tr/scr1.jpg"
+            ],
+            "assets": [
+                "img/tr",
+                "audio/tr"
             ]
         }
     ]

@@ -1,0 +1,1356 @@
+{
+  "settings/difficulty/title": "Difficulty",
+  "settings/difficulty/description": "difficulty of the game",
+  "settings/difficulty/keys/easy/title": "Easy",
+  "settings/difficulty/keys/easy/description": "easy",
+  "settings/difficulty/keys/medium/title": "Medium",
+  "settings/difficulty/keys/medium/description": "medium",
+  "settings/difficulty/keys/hard/title": "Hard",
+  "settings/difficulty/keys/hard/description": "hard",
+  "settings/show_hint/title": "Show Hint",
+  "settings/show_hint/description": "Show hint",
+  "settings/hint_duration/title": "Hint Duration",
+  "settings/hint_duration/description": "Hint duration",
+  "loadingText": "Yükleniyor...",
+  "loadingFont": "60px Arial",
+  "loadingBackground": "#18B9F2",
+  "loadingColor": "#fff",
+  "announceText": "%s",
+  "announceTextStyle": {
+    "strokeThickness": 4,
+    "stroke": "#FFFFFF",
+    "font": "65px Arial",
+    "align": "center"
+  },
+  "preload": [
+    {
+      "name": "playButton",
+      "type": "image",
+      "path": "img/tr/play.png"
+    },
+    {
+      "name": "atlas",
+      "type": "atlas",
+      "path": "img/en/atlas.png",
+      "data": "data/atlas.json"
+    },
+    {
+      "name": "back",
+      "type": "image",
+      "path": "img/back.png"
+    },
+    {
+      "name": "white_box",
+      "type": "image",
+      "path": "img/white_box.png"
+    },
+    {
+      "name": "almond",
+      "type": "image",
+      "path": "img/meyvesebze/badem.png"
+    },
+    {
+      "name": "apple",
+      "type": "image",
+      "path": "img/meyvesebze/elma.png"
+    },
+    {
+      "name": "apricot",
+      "type": "image",
+      "path": "img/meyvesebze/kayisi.png"
+    },
+    {
+      "name": "banana",
+      "type": "image",
+      "path": "img/meyvesebze/muz.png"
+    },
+    {
+      "name": "blackberry",
+      "type": "image",
+      "path": "img/meyvesebze/bogurtlen.png"
+    },
+    {
+      "name": "cherry",
+      "type": "image",
+      "path": "img/meyvesebze/kiraz.png"
+    },
+    {
+      "name": "fig",
+      "type": "image",
+      "path": "img/meyvesebze/incir.png"
+    },
+    {
+      "name": "grapefruit",
+      "type": "image",
+      "path": "img/meyvesebze/greyfurt.png"
+    },
+    {
+      "name": "grape",
+      "type": "image",
+      "path": "img/meyvesebze/uzum.png"
+    },
+    {
+      "name": "kiwi",
+      "type": "image",
+      "path": "img/meyvesebze/kivi.png"
+    },
+    {
+      "name": "coconut",
+      "type": "image",
+      "path": "img/meyvesebze/hindistan_cevizi.png"
+    },
+    {
+      "name": "lemon",
+      "type": "image",
+      "path": "img/meyvesebze/limon.png"
+    },
+    {
+      "name": "orange",
+      "type": "image",
+      "path": "img/meyvesebze/portakal.png"
+    },
+    {
+      "name": "peach",
+      "type": "image",
+      "path": "img/meyvesebze/seftali.png"
+    },
+    {
+      "name": "pear",
+      "type": "image",
+      "path": "img/meyvesebze/armut.png"
+    },
+    {
+      "name": "pineapple",
+      "type": "image",
+      "path": "img/meyvesebze/ananas.png"
+    },
+    {
+      "name": "plum",
+      "type": "image",
+      "path": "img/meyvesebze/erik.png"
+    },
+    {
+      "name": "peanut",
+      "type": "image",
+      "path": "img/meyvesebze/fistik.png"
+    },
+    {
+      "name": "strawberry",
+      "type": "image",
+      "path": "img/meyvesebze/cilek.png"
+    },
+    {
+      "name": "mandarin",
+      "type": "image",
+      "path": "img/meyvesebze/mandalina.png"
+    },
+    {
+      "name": "watermelon",
+      "type": "image",
+      "path": "img/meyvesebze/karpuz.png"
+    },
+    {
+      "name": "melon",
+      "type": "image",
+      "path": "img/meyvesebze/kavun.png"
+    },
+    {
+      "name": "mulberry",
+      "type": "image",
+      "path": "img/meyvesebze/dut.png"
+    },
+    {
+      "name": "quince",
+      "type": "image",
+      "path": "img/meyvesebze/ayva.png"
+    },
+    {
+      "name": "walnut",
+      "type": "image",
+      "path": "img/meyvesebze/ceviz.png"
+    },
+    {
+      "name": "hazelnut",
+      "type": "image",
+      "path": "img/meyvesebze/findik.png"
+    },
+    {
+      "name": "chestnut",
+      "type": "image",
+      "path": "img/meyvesebze/kestane.png"
+    },
+    {
+      "name": "pomegranate",
+      "type": "image",
+      "path": "img/meyvesebze/nar.png"
+    },
+    {
+      "name": "tomato",
+      "type": "image",
+      "path": "img/meyvesebze/domates.png"
+    },
+    {
+      "name": "potato",
+      "type": "image",
+      "path": "img/meyvesebze/patates.png"
+    },
+    {
+      "name": "onion",
+      "type": "image",
+      "path": "img/meyvesebze/sogan.png"
+    },
+    {
+      "name": "carrot",
+      "type": "image",
+      "path": "img/meyvesebze/havuc.png"
+    },
+    {
+      "name": "cucumber",
+      "type": "image",
+      "path": "img/meyvesebze/salatalik.png"
+    },
+    {
+      "name": "eggplant",
+      "type": "image",
+      "path": "img/meyvesebze/patlican.png"
+    },
+    {
+      "name": "pea",
+      "type": "image",
+      "path": "img/meyvesebze/bezelye.png"
+    },
+    {
+      "name": "spinach",
+      "type": "image",
+      "path": "img/meyvesebze/ispanak.png"
+    },
+    {
+      "name": "garlic",
+      "type": "image",
+      "path": "img/meyvesebze/sarimsak.png"
+    },
+    {
+      "name": "cabbage",
+      "type": "image",
+      "path": "img/meyvesebze/lahana.png"
+    },
+    {
+      "name": "pumpkin",
+      "type": "image",
+      "path": "img/meyvesebze/balkabagi.png"
+    },
+    {
+      "name": "radish",
+      "type": "image",
+      "path": "img/meyvesebze/turp.png"
+    },
+    {
+      "name": "broccoli",
+      "type": "image",
+      "path": "img/meyvesebze/brokoli.png"
+    },
+    {
+      "name": "lettuce",
+      "type": "image",
+      "path": "img/meyvesebze/marul.png"
+    },
+    {
+      "name": "artichoke",
+      "type": "image",
+      "path": "img/meyvesebze/enginar.png"
+    },
+    {
+      "name": "pepper",
+      "type": "image",
+      "path": "img/meyvesebze/biber.png"
+    },
+    {
+      "name": "beans",
+      "type": "image",
+      "path": "img/meyvesebze/fasulye.png"
+    },
+    {
+      "name": "zucchini",
+      "type": "image",
+      "path": "img/meyvesebze/kabak.png"
+    },
+    {
+      "name": "okra",
+      "type": "image",
+      "path": "img/meyvesebze/bamya.png"
+    },
+    {
+      "name": "particle",
+      "type": "image",
+      "path": "img/particle.png"
+    },
+    {
+      "name": "hand",
+      "type": "image",
+      "path": "img/hand.png"
+    },
+    {
+      "name": "congratulations",
+      "type": "audio",
+      "path": "audio/tr/tebrikler.mp3"
+    },
+    {
+      "name": "applause",
+      "type": "audio",
+      "path": "audio/applause.wav"
+    },
+    {
+      "name": "welcome",
+      "type": "audio",
+      "path": "audio/tr/hos_geldin.mp3"
+    },
+    {
+      "name": "try_again",
+      "type": "audio",
+      "path": "audio/tr/tekrar_dene.mp3"
+    },
+    {
+      "name": "blue_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/ananas.mp3"
+    },
+    {
+      "name": "blue_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/soundg/ananasi_goster.mp3"
+    },
+    {
+      "name": "almond_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/badem.mp3"
+    },
+
+    {
+      "name": "almond_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/bademi_esle.mp3"
+    },
+    {
+      "name": "apple_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/elma.mp3"
+    },
+
+    {
+      "name": "apple_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/elmayi_esle.mp3"
+    },
+    {
+      "name": "apricot_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kayisi.mp3"
+    },
+
+    {
+      "name": "apricot_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kayisiyi_esle.mp3"
+    },
+    {
+      "name": "banana_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/muz.mp3"
+    },
+
+    {
+      "name": "banana_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/muzu_esle.mp3"
+    },
+    {
+      "name": "blackberry_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/bogurtlen.mp3"
+    },
+
+    {
+      "name": "blackberry_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/bogurtleni_esle.mp3"
+    },
+    {
+      "name": "cherry_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kiraz.mp3"
+    },
+
+    {
+      "name": "cherry_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kirazi_esle.mp3"
+    },
+    {
+      "name": "fig_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/incir.mp3"
+    },
+
+    {
+      "name": "fig_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/inciri_esle.mp3"
+    },
+    {
+      "name": "grapefruit_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/greyfurt.mp3"
+    },
+
+    {
+      "name": "grapefruit_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/greyfurtu_esle.mp3"
+    },
+    {
+      "name": "grape_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/uzum.mp3"
+    },
+
+    {
+      "name": "grape_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/uzumu_esle.mp3"
+    },
+    {
+      "name": "kiwi_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kivi.mp3"
+    },
+
+    {
+      "name": "kiwi_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kiviyi_esle.mp3"
+    },
+    {
+      "name": "coconut_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/hindistan_cevizi.mp3"
+    },
+
+    {
+      "name": "coconut_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/hindistan_cevizini_esle.mp3"
+    },
+    {
+      "name": "lemon_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/limon.mp3"
+    },
+
+    {
+      "name": "lemon_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/limonu_esle.mp3"
+    },
+    {
+      "name": "orange_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/portakal.mp3"
+    },
+
+    {
+      "name": "orange_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/portakali_esle.mp3"
+    },
+    {
+      "name": "peach_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/seftali.mp3"
+    },
+
+    {
+      "name": "peach_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/seftaliyi_esle.mp3"
+    },
+    {
+      "name": "pear_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/armut.mp3"
+    },
+
+    {
+      "name": "pear_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/armutu_esle.mp3"
+    },
+    {
+      "name": "pineapple_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/ananas.mp3"
+    },
+
+    {
+      "name": "pineapple_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/ananasi_esle.mp3"
+    },
+    {
+      "name": "plum_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/erik.mp3"
+    },
+
+    {
+      "name": "plum_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/erigi_esle.mp3"
+    },
+    {
+      "name": "peanut_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/fistik.mp3"
+    },
+
+    {
+      "name": "peanut_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/fistigi_esle.mp3"
+    },
+    {
+      "name": "strawberry_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/cilek.mp3"
+    },
+
+    {
+      "name": "strawberry_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/cilegi_esle.mp3"
+    },
+    {
+      "name": "mandarin_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/mandalina.mp3"
+    },
+
+    {
+      "name": "mandarin_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/mandalinayi_esle.mp3"
+    },
+    {
+      "name": "watermelon_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/karpuz.mp3"
+    },
+
+    {
+      "name": "watermelon_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/karpuzu_esle.mp3"
+    },
+    {
+      "name": "melon_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kavun.mp3"
+    },
+
+    {
+      "name": "melon_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kavunu_esle.mp3"
+    },
+    {
+      "name": "mulberry_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/dut.mp3"
+    },
+
+    {
+      "name": "mulberry_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/dutu_esle.mp3"
+    },
+    {
+      "name": "quince_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/ayva.mp3"
+    },
+
+    {
+      "name": "quince_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/ayvayi_esle.mp3"
+    },
+    {
+      "name": "walnut_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/ceviz.mp3"
+    },
+
+    {
+      "name": "walnut_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/cevizi_esle.mp3"
+    },
+    {
+      "name": "hazelnut_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/findik.mp3"
+    },
+
+    {
+      "name": "hazelnut_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/findigi_esle.mp3"
+    },
+    {
+      "name": "chestnut_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kestane.mp3"
+    },
+
+    {
+      "name": "chestnut_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kestaneyi_esle.mp3"
+    },
+    {
+      "name": "pomegranate_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/nar.mp3"
+    },
+
+    {
+      "name": "pomegranate_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/nari_esle.mp3"
+    },
+    {
+      "name": "tomato_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/domates.mp3"
+    },
+
+    {
+      "name": "tomato_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/domatesi_esle.mp3"
+    },
+    {
+      "name": "potato_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/patates.mp3"
+    },
+
+    {
+      "name": "potato_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/patatesi_esle.mp3"
+    },
+    {
+      "name": "onion_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/sogan.mp3"
+    },
+
+    {
+      "name": "onion_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/sogani_esle.mp3"
+    },
+    {
+      "name": "carrot_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/havuc.mp3"
+    },
+
+    {
+      "name": "carrot_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/havucu_esle.mp3"
+    },
+    {
+      "name": "cucumber_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/salatalik.mp3"
+    },
+
+    {
+      "name": "cucumber_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/salataligi_esle.mp3"
+    },
+    {
+      "name": "eggplant_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/patlican.mp3"
+    },
+
+    {
+      "name": "eggplant_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/patlicani_esle.mp3"
+    },
+    {
+      "name": "pea_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/bezelye.mp3"
+    },
+
+    {
+      "name": "pea_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/bezelyeyi_esle.mp3"
+    },
+    {
+      "name": "spinach_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/ispanak.mp3"
+    },
+
+    {
+      "name": "spinach_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/ispanagi_esle.mp3"
+    },
+    {
+      "name": "garlic_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/sarimsak.mp3"
+    },
+
+    {
+      "name": "garlic_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/sarimsagi_esle.mp3"
+    },
+    {
+      "name": "cabbage_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/lahana.mp3"
+    },
+
+    {
+      "name": "cabbage_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/lahanayi_esle.mp3"
+    },
+    {
+      "name": "pumpkin_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/balkabagi.mp3"
+    },
+
+    {
+      "name": "pumpkin_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/balkabagini_esle.mp3"
+    },
+    {
+      "name": "radish_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/turp.mp3"
+    },
+
+    {
+      "name": "radish_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/turbu_esle.mp3"
+    },
+    {
+      "name": "broccoli_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/brokoli.mp3"
+    },
+
+    {
+      "name": "broccoli_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/brokoliyi_esle.mp3"
+    },
+    {
+      "name": "lettuce_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/marul.mp3"
+    },
+
+    {
+      "name": "lettuce_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/marulu_esle.mp3"
+    },
+    {
+      "name": "artichoke_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/enginar.mp3"
+    },
+
+    {
+      "name": "artichoke_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/enginari_esle.mp3"
+    },
+    {
+      "name": "pepper_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/biber.mp3"
+    },
+
+    {
+      "name": "pepper_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/biberi_esle.mp3"
+    },
+    {
+      "name": "beans_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/fasulye.mp3"
+    },
+
+    {
+      "name": "beans_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/fasulyeyi_esle.mp3"
+    },
+    {
+      "name": "zucchini_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/kabak.mp3"
+    },
+
+    {
+      "name": "zucchini_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/kabagi_esle.mp3"
+    },
+    {
+      "name": "okra_audio",
+      "type": "audio",
+      "path": "audio/meyvesebze/sound/bamya.mp3"
+    },
+
+    {
+      "name": "okra_question2",
+      "type": "audio",
+      "path": "audio/meyvesebze/sounde/bamyayi_esle.mp3"
+    },
+    {
+      "name": "ballon_body",
+      "type": "image",
+      "path": "img/ballon/ballon_body.png"
+    },
+    {
+      "name": "ballon_light",
+      "type": "image",
+      "path": "img/ballon/ballon_light.png"
+    },
+    {
+      "name": "ballon_rope",
+      "type": "image",
+      "path": "img/ballon/ballon_rope.png"
+    },
+    {
+      "name": "ballon_star",
+      "type": "image",
+      "path": "img/ballon/ballon_star.png"
+    },
+    {
+      "name": "star",
+      "type": "image",
+      "path": "img/star.png"
+    }
+  ],
+  "game": {
+    "easy_size": 2,
+    "medium_size": 3,
+    "hard_size": 4,
+    "answer_type": "match",
+    "add_outline": true,
+    "outline_image": "top_box",
+    "session_step": 10,
+    "step_score": 5,
+    "question_from": "meyvesebze",
+    "answers_from": "meyvesebze",
+    "hint_type": "jump",
+    "hide_item_on": 1,
+    "hiding_type": "fade",
+    "hiding_fade_alpha": 0.2,
+    "hiding_fade_duration": 200,
+    "hiding_move_duration": 300,
+    "table_show_duration": 400,
+    "table_leave_duration": 600,
+    "balloon_options": {
+      "count": 15,
+      "luminosity": "bright"
+    }
+  },
+  "layout": {
+    "fixed_size": true,
+    "max_item": 4,
+    "cell_anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "horizontal": {
+      "width": {
+        "multiplier": 0.7,
+        "constant": 0
+      },
+      "y": {
+        "multiplier": 0.5,
+        "constant": 0
+      }
+    },
+    "vertical": {
+      "height": {
+        "multiplier": 0.8,
+        "constant": 0
+      },
+      "x": {
+        "multiplier": 1,
+        "constant": -100
+      }
+    },
+    "answer_box": {
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "x": {
+        "multiplier": 0.3,
+        "constant": 0
+      },
+      "y": {
+        "multiplier": 0.5,
+        "constant": 0
+      }
+    }
+  },
+  "meyvesebze": [
+    {
+      "id": "almond",
+      "kind": "almond",
+      "audio": "almond_audio",
+      "question": "almond_question2",
+      "text": "Badem",
+      "image": "almond",
+      "tint": "0xFFFFFF"
+    },
+    {
+      "id": "apple",
+      "kind": "apple",
+      "audio": "apple_audio",
+      "question": "apple_question2",
+      "text": "Elma",
+      "image": "apple",
+      "tint": "0xFFFFFF"
+    },
+    {
+      "image": "apricot",
+      "tint": "0xFFFFFF",
+      "id": "apricot",
+      "kind": "apricot",
+      "audio": "apricot_audio",
+      "question": "apricot_question2",
+      "text": "Kayısı"
+    },
+    {
+      "image": "banana",
+      "tint": "0xFFFFFF",
+      "id": "banana",
+      "kind": "banana",
+      "audio": "banana_audio",
+      "question": "banana_question2",
+      "text": "Muz"
+    },
+    {
+      "image": "blackberry",
+      "tint": "0xFFFFFF",
+      "id": "blackberry",
+      "kind": "blackberry",
+      "audio": "blackberry_audio",
+      "question": "blackberry_question2",
+      "text": "Böğürtlen"
+    },
+    {
+      "image": "cherry",
+      "tint": "0xFFFFFF",
+      "id": "cherry",
+      "kind": "cherry",
+      "audio": "cherry_audio",
+      "question": "cherry_question2",
+      "text": "Kiraz"
+    },
+    {
+      "image": "fig",
+      "tint": "0xFFFFFF",
+      "id": "fig",
+      "kind": "fig",
+      "audio": "fig_audio",
+      "question": "fig_question2",
+      "text": "İncir"
+    },
+    {
+      "image": "grapefruit",
+      "tint": "0xFFFFFF",
+      "id": "grapefruit",
+      "kind": "grapefruit",
+      "audio": "grapefruit_audio",
+      "question": "grapefruit_question2",
+      "text": "Greyfurt"
+    },
+    {
+      "image": "grape",
+      "tint": "0xFFFFFF",
+      "id": "grape",
+      "kind": "grape",
+      "audio": "grape_audio",
+      "question": "grape_question2",
+      "text": "Üzüm"
+    },
+    {
+      "image": "kiwi",
+      "tint": "0xFFFFFF",
+      "id": "kiwi",
+      "kind": "kiwi",
+      "audio": "kiwi_audio",
+      "question": "kiwi_question2",
+      "text": "Kivi"
+    },
+    {
+      "image": "coconut",
+      "tint": "0xFFFFFF",
+      "id": "coconut",
+      "kind": "coconut",
+      "audio": "coconut_audio",
+      "question": "coconut_question2",
+      "text": "Hindistan Cevizi"
+    },
+    {
+      "image": "lemon",
+      "tint": "0xFFFFFF",
+      "id": "lemon",
+      "kind": "lemon",
+      "audio": "lemon_audio",
+      "question": "lemon_question2",
+      "text": "Limon"
+    },
+    {
+      "image": "orange",
+      "tint": "0xFFFFFF",
+      "id": "orange",
+      "kind": "orange",
+      "audio": "orange_audio",
+      "question": "orange_question2",
+      "text": "Portakal"
+    },
+    {
+      "image": "peach",
+      "tint": "0xFFFFFF",
+      "id": "peach",
+      "kind": "peach",
+      "audio": "peach_audio",
+      "question": "peach_question2",
+      "text": "Şeftali"
+    },
+    {
+      "image": "pear",
+      "tint": "0xFFFFFF",
+      "id": "pear",
+      "kind": "pear",
+      "audio": "pear_audio",
+      "question": "pear_question2",
+      "text": "Armut"
+    },
+    {
+      "image": "pineapple",
+      "tint": "0xFFFFFF",
+      "id": "pineapple",
+      "kind": "pineapple",
+      "audio": "pineapple_audio",
+      "question": "pineapple_question2",
+      "text": "Ananas"
+    },
+    {
+      "image": "plum",
+      "tint": "0xFFFFFF",
+      "id": "plum",
+      "kind": "plum",
+      "audio": "plum_audio",
+      "question": "plum_question2",
+      "text": "Erik"
+    },
+    {
+      "image": "peanut",
+      "tint": "0xFFFFFF",
+      "id": "peanut",
+      "kind": "peanut",
+      "audio": "peanut_audio",
+      "question": "peanut_question2",
+      "text": "Fıstık"
+    },
+    {
+      "image": "strawberry",
+      "tint": "0xFFFFFF",
+      "id": "strawberry",
+      "kind": "strawberry",
+      "audio": "strawberry_audio",
+      "question": "strawberry_question2",
+      "text": "Çilek"
+    },
+    {
+      "image": "mandarin",
+      "tint": "0xFFFFFF",
+      "id": "mandarin",
+      "kind": "mandarin",
+      "audio": "mandarin_audio",
+      "question": "mandarin_question2",
+      "text": "Mandalina"
+    },
+    {
+      "image": "watermelon",
+      "tint": "0xFFFFFF",
+      "id": "watermelon",
+      "kind": "watermelon",
+      "audio": "watermelon_audio",
+      "question": "watermelon_question2",
+      "text": "Karpuz"
+    },
+    {
+      "image": "melon",
+      "tint": "0xFFFFFF",
+      "id": "melon",
+      "kind": "melon",
+      "audio": "melon_audio",
+      "question": "melon_question2",
+      "text": "Kavun"
+    },
+    {
+      "image": "mulberry",
+      "tint": "0xFFFFFF",
+      "id": "mulberry",
+      "kind": "mulberry",
+      "audio": "mulberry_audio",
+      "question": "mulberry_question2",
+      "text": "Dut"
+    },
+    {
+      "image": "quince",
+      "tint": "0xFFFFFF",
+      "id": "quince",
+      "kind": "quince",
+      "audio": "quince_audio",
+      "question": "quince_question2",
+      "text": "Ayva"
+    },
+    {
+      "image": "walnut",
+      "tint": "0xFFFFFF",
+      "id": "walnut",
+      "kind": "walnut",
+      "audio": "walnut_audio",
+      "question": "walnut_question2",
+      "text": "Ceviz"
+    },
+    {
+      "image": "hazelnut",
+      "tint": "0xFFFFFF",
+      "id": "hazelnut",
+      "kind": "hazelnut",
+      "audio": "hazelnut_audio",
+      "question": "hazelnut_question2",
+      "text": "Fındık"
+    },
+    {
+      "image": "chestnut",
+      "tint": "0xFFFFFF",
+      "id": "chestnut",
+      "kind": "chestnut",
+      "audio": "chestnut_audio",
+      "question": "chestnut_question2",
+      "text": "Kestane"
+    },
+    {
+      "image": "pomegranate",
+      "tint": "0xFFFFFF",
+      "id": "pomegranate",
+      "kind": "pomegranate",
+      "audio": "pomegranate_audio",
+      "question": "pomegranate_question2",
+      "text": "Nar"
+    },
+    {
+      "image": "tomato",
+      "tint": "0xFFFFFF",
+      "id": "tomato",
+      "kind": "tomato",
+      "audio": "tomato_audio",
+      "question": "tomato_question2",
+      "text": "Domates"
+    },
+    {
+      "image": "potato",
+      "tint": "0xFFFFFF",
+      "id": "potato",
+      "kind": "potato",
+      "audio": "potato_audio",
+      "question": "potato_question2",
+      "text": "Patates"
+    },
+    {
+      "image": "onion",
+      "tint": "0xFFFFFF",
+      "id": "onion",
+      "kind": "onion",
+      "audio": "onion_audio",
+      "question": "onion_question2",
+      "text": "Soğan"
+    },
+    {
+      "image": "carrot",
+      "tint": "0xFFFFFF",
+      "id": "carrot",
+      "kind": "carrot",
+      "audio": "carrot_audio",
+      "question": "carrot_question2",
+      "text": "Havuç"
+    },
+    {
+      "image": "cucumber",
+      "tint": "0xFFFFFF",
+      "id": "cucumber",
+      "kind": "cucumber",
+      "audio": "cucumber_audio",
+      "question": "cucumber_question2",
+      "text": "Salatalık"
+    },
+    {
+      "image": "eggplant",
+      "tint": "0xFFFFFF",
+      "id": "eggplant",
+      "kind": "eggplant",
+      "audio": "eggplant_audio",
+      "question": "eggplant_question2",
+      "text": "Patlıcan"
+    },
+    {
+      "image": "pea",
+      "tint": "0xFFFFFF",
+      "id": "pea",
+      "kind": "pea",
+      "audio": "pea_audio",
+      "question": "pea_question2",
+      "text": "Bezelye"
+    },
+    {
+      "image": "spinach",
+      "tint": "0xFFFFFF",
+      "id": "spinach",
+      "kind": "spinach",
+      "audio": "spinach_audio",
+      "question": "spinach_question2",
+      "text": "Ispanak"
+    },
+    {
+      "image": "garlic",
+      "tint": "0xFFFFFF",
+      "id": "garlic",
+      "kind": "garlic",
+      "audio": "garlic_audio",
+      "question": "garlic_question2",
+      "text": "Sarımsak"
+    },
+    {
+      "image": "cabbage",
+      "tint": "0xFFFFFF",
+      "id": "cabbage",
+      "kind": "cabbage",
+      "audio": "cabbage_audio",
+      "question": "cabbage_question2",
+      "text": "Lahana"
+    },
+    {
+      "image": "pumpkin",
+      "tint": "0xFFFFFF",
+      "id": "pumpkin",
+      "kind": "pumpkin",
+      "audio": "pumpkin_audio",
+      "question": "pumpkin_question2",
+      "text": "Balkabağı"
+    },
+    {
+      "image": "radish",
+      "tint": "0xFFFFFF",
+      "id": "radish",
+      "kind": "radish",
+      "audio": "radish_audio",
+      "question": "radish_question2",
+      "text": "Turp"
+    },
+    {
+      "image": "broccoli",
+      "tint": "0xFFFFFF",
+      "id": "broccoli",
+      "kind": "broccoli",
+      "audio": "broccoli_audio",
+      "question": "broccoli_question2",
+      "text": "Brokoli"
+    },
+    {
+      "image": "lettuce",
+      "tint": "0xFFFFFF",
+      "id": "lettuce",
+      "kind": "lettuce",
+      "audio": "lettuce_audio",
+      "question": "lettuce_question2",
+      "text": "Marul"
+    },
+    {
+      "image": "artichoke",
+      "tint": "0xFFFFFF",
+      "id": "artichoke",
+      "kind": "artichoke",
+      "audio": "artichoke_audio",
+      "question": "artichoke_question2",
+      "text": "Enginar"
+    },
+    {
+      "image": "pepper",
+      "tint": "0xFFFFFF",
+      "id": "pepper",
+      "kind": "pepper",
+      "audio": "pepper_audio",
+      "question": "pepper_question2",
+      "text": "Biber"
+    },
+    {
+      "image": "beans",
+      "tint": "0xFFFFFF",
+      "id": "beans",
+      "kind": "beans",
+      "audio": "beans_audio",
+      "question": "beans_question2",
+      "text": "Fasulye"
+    },
+    {
+      "image": "zucchini",
+      "tint": "0xFFFFFF",
+      "id": "zucchini",
+      "kind": "zucchini",
+      "audio": "zucchini_audio",
+      "question": "zucchini_question2",
+      "text": "Kabak"
+    },
+    {
+      "image": "okra",
+      "tint": "0xFFFFFF",
+      "id": "okra",
+      "kind": "okra",
+      "audio": "okra_audio",
+      "question": "okra_question2",
+      "text": "Bamya"
+    }
+  ]
+}

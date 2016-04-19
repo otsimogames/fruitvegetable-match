@@ -1,8 +1,8 @@
 {
-    "unique_name": "sample-match",
+    "unique_name": "fruitvegetable-match",
     "version": "1.0.0",
     "main": "index.html",
-    "licence": "Apache-2.0",
+    "licence": "GPL",
     "languages": [
         "tr"
     ],
@@ -12,8 +12,8 @@
     "repository": "git@github.com:otsimo/memory-game-colors.git",
     "authors": [
         {
-            "name": "Sercan Değirmenci",
-            "email": "sercan@otsimo.com"
+            "name": "Otsimo",
+            "email": "info@otsimo.com"
         }
     ],
     "exclude": [],
@@ -21,30 +21,10 @@
     "kv_path": "data",
     "metadata": [
         {
-            "language": "en",
-            "visible_name": "Color Matching Game",
-            "summary": "a short description",
-            "description": "an awesome game, this is long description",
-            "keywords": [
-                "matching",
-                "match"
-            ],
-            "logo": "i18n/en/logo_en_450x300.png",
-            "icon": "i18n/en/icon_en_512.png",
-            "images": [
-                "i18n/en/scr1.jpg",
-                "i18n/en/scr1.jpg"
-            ],
-            "assets": [
-                "img/en",
-                "audio/en"
-            ]
-        },
-        {
             "language": "tr",
-            "visible_name": "Renk Hafıza Oyunu",
-            "summary": "a short description",
-            "description": "an awesome game, this is long description",
+            "visible_name": "Meyve-Sebzeleri Eşleştirme",
+            "summary": "Kolayca meyve ve sebzeleri öğrenmek için eşleştirme oyunudur.",
+            "description": "Çocuklar eşleştirme sayesinde meyve ve sebzeleri kolayca öğrenir ve tekrar edebilirler. Meyve ve sebzeleri hiç bilmeyen veya biraz bilen çocuklar için özel olarak geliştirilmiştir.",
             "keywords": [
                 "hafıza",
                 "renk"

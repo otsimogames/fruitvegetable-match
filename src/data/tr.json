@@ -13,7 +13,7 @@
   "settings/hint_duration/description": "Oyunun içindeki ipucularının süresini değiştirir.",
   "loadingText": "Yükleniyor...",
   "loadingFont": "60px Arial",
-  "loadingBackground": "#18B9F2",
+  "loadingBackground": "#c3cb71",
   "loadingColor": "#fff",
   "announceText": "%s",
   "announceTextStyle": {
@@ -317,7 +317,7 @@
     {
       "name": "blue_question2",
       "type": "audio",
-      "path": "audio/meyvesebze/soundg/ananasi_goster.mp3"
+      "path": "audio/meyvesebze/sounde/ananasi_esle.mp3"
     },
     {
       "name": "almond_audio",

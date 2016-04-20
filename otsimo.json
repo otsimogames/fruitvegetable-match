@@ -1,6 +1,6 @@
 {
     "unique_name": "fruitvegetable-match",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "main": "index.html",
     "licence": "GPL",
     "languages": [
@@ -29,8 +29,8 @@
                 "hafıza",
                 "renk"
             ],
-            "logo": "i18n/tr/m-fruitvegetable-b.png",
-            "icon": "i18n/tr/m-fruitvegetable-s.png",
+            "logo": "i18n/tr/m-fruitvegetable-s.png",
+            "icon": "i18n/tr/m-fruitvegetable-b.png",
             "images": [
                 "i18n/tr/scr1.jpg",
                 "i18n/tr/scr1.jpg"

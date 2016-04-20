@@ -881,6 +881,8 @@
     "hiding_move_duration": 300,
     "table_show_duration": 400,
     "table_leave_duration": 600,
+    "hint_jump_duration":200,
+    "hint_hand_duration":400,
     "balloon_options": {
       "count": 15,
       "luminosity": "bright"

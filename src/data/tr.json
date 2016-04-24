@@ -12,14 +12,14 @@
   "settings/hint_duration/title": "İpucu Süresi",
   "settings/hint_duration/description": "Oyunun içindeki ipucularının süresini değiştirir.",
   "loadingText": "Yükleniyor...",
-  "loadingFont": "60px Arial",
+  "loadingFont": "60px mfont",
   "loadingBackground": "#c3cb71",
   "loadingColor": "#fff",
   "announceText": "%s",
   "announceTextStyle": {
     "strokeThickness": 4,
     "stroke": "#FFFFFF",
-    "font": "65px Arial",
+    "font": "65px mfont",
     "align": "center"
   },
   "preload": [
@@ -324,7 +324,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/badem.mp3"
     },
-
     {
       "name": "almond_question2",
       "type": "audio",
@@ -335,7 +334,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/elma.mp3"
     },
-
     {
       "name": "apple_question2",
       "type": "audio",
@@ -346,7 +344,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kayisi.mp3"
     },
-
     {
       "name": "apricot_question2",
       "type": "audio",
@@ -357,7 +354,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/muz.mp3"
     },
-
     {
       "name": "banana_question2",
       "type": "audio",
@@ -368,7 +364,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/bogurtlen.mp3"
     },
-
     {
       "name": "blackberry_question2",
       "type": "audio",
@@ -379,7 +374,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kiraz.mp3"
     },
-
     {
       "name": "cherry_question2",
       "type": "audio",
@@ -390,7 +384,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/incir.mp3"
     },
-
     {
       "name": "fig_question2",
       "type": "audio",
@@ -401,7 +394,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/greyfurt.mp3"
     },
-
     {
       "name": "grapefruit_question2",
       "type": "audio",
@@ -412,7 +404,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/uzum.mp3"
     },
-
     {
       "name": "grape_question2",
       "type": "audio",
@@ -423,7 +414,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kivi.mp3"
     },
-
     {
       "name": "kiwi_question2",
       "type": "audio",
@@ -434,7 +424,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/hindistan_cevizi.mp3"
     },
-
     {
       "name": "coconut_question2",
       "type": "audio",
@@ -445,7 +434,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/limon.mp3"
     },
-
     {
       "name": "lemon_question2",
       "type": "audio",
@@ -456,7 +444,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/portakal.mp3"
     },
-
     {
       "name": "orange_question2",
       "type": "audio",
@@ -467,7 +454,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/seftali.mp3"
     },
-
     {
       "name": "peach_question2",
       "type": "audio",
@@ -478,7 +464,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/armut.mp3"
     },
-
     {
       "name": "pear_question2",
       "type": "audio",
@@ -489,7 +474,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/ananas.mp3"
     },
-
     {
       "name": "pineapple_question2",
       "type": "audio",
@@ -500,7 +484,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/erik.mp3"
     },
-
     {
       "name": "plum_question2",
       "type": "audio",
@@ -511,7 +494,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/fistik.mp3"
     },
-
     {
       "name": "peanut_question2",
       "type": "audio",
@@ -522,7 +504,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/cilek.mp3"
     },
-
     {
       "name": "strawberry_question2",
       "type": "audio",
@@ -533,7 +514,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/mandalina.mp3"
     },
-
     {
       "name": "mandarin_question2",
       "type": "audio",
@@ -544,7 +524,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/karpuz.mp3"
     },
-
     {
       "name": "watermelon_question2",
       "type": "audio",
@@ -555,7 +534,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kavun.mp3"
     },
-
     {
       "name": "melon_question2",
       "type": "audio",
@@ -566,7 +544,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/dut.mp3"
     },
-
     {
       "name": "mulberry_question2",
       "type": "audio",
@@ -577,7 +554,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/ayva.mp3"
     },
-
     {
       "name": "quince_question2",
       "type": "audio",
@@ -588,7 +564,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/ceviz.mp3"
     },
-
     {
       "name": "walnut_question2",
       "type": "audio",
@@ -599,7 +574,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/findik.mp3"
     },
-
     {
       "name": "hazelnut_question2",
       "type": "audio",
@@ -610,7 +584,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kestane.mp3"
     },
-
     {
       "name": "chestnut_question2",
       "type": "audio",
@@ -621,7 +594,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/nar.mp3"
     },
-
     {
       "name": "pomegranate_question2",
       "type": "audio",
@@ -632,7 +604,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/domates.mp3"
     },
-
     {
       "name": "tomato_question2",
       "type": "audio",
@@ -643,7 +614,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/patates.mp3"
     },
-
     {
       "name": "potato_question2",
       "type": "audio",
@@ -654,7 +624,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/sogan.mp3"
     },
-
     {
       "name": "onion_question2",
       "type": "audio",
@@ -665,7 +634,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/havuc.mp3"
     },
-
     {
       "name": "carrot_question2",
       "type": "audio",
@@ -676,7 +644,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/salatalik.mp3"
     },
-
     {
       "name": "cucumber_question2",
       "type": "audio",
@@ -687,7 +654,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/patlican.mp3"
     },
-
     {
       "name": "eggplant_question2",
       "type": "audio",
@@ -698,7 +664,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/bezelye.mp3"
     },
-
     {
       "name": "pea_question2",
       "type": "audio",
@@ -709,7 +674,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/ispanak.mp3"
     },
-
     {
       "name": "spinach_question2",
       "type": "audio",
@@ -720,7 +684,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/sarimsak.mp3"
     },
-
     {
       "name": "garlic_question2",
       "type": "audio",
@@ -731,7 +694,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/lahana.mp3"
     },
-
     {
       "name": "cabbage_question2",
       "type": "audio",
@@ -742,7 +704,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/balkabagi.mp3"
     },
-
     {
       "name": "pumpkin_question2",
       "type": "audio",
@@ -753,7 +714,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/turp.mp3"
     },
-
     {
       "name": "radish_question2",
       "type": "audio",
@@ -764,7 +724,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/brokoli.mp3"
     },
-
     {
       "name": "broccoli_question2",
       "type": "audio",
@@ -775,7 +734,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/marul.mp3"
     },
-
     {
       "name": "lettuce_question2",
       "type": "audio",
@@ -786,7 +744,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/enginar.mp3"
     },
-
     {
       "name": "artichoke_question2",
       "type": "audio",
@@ -797,7 +754,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/biber.mp3"
     },
-
     {
       "name": "pepper_question2",
       "type": "audio",
@@ -808,7 +764,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/fasulye.mp3"
     },
-
     {
       "name": "beans_question2",
       "type": "audio",
@@ -819,7 +774,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/kabak.mp3"
     },
-
     {
       "name": "zucchini_question2",
       "type": "audio",
@@ -830,7 +784,6 @@
       "type": "audio",
       "path": "audio/meyvesebze/sound/bamya.mp3"
     },
-
     {
       "name": "okra_question2",
       "type": "audio",
@@ -881,8 +834,8 @@
     "hiding_move_duration": 300,
     "table_show_duration": 400,
     "table_leave_duration": 600,
-    "hint_jump_duration":200,
-    "hint_hand_duration":400,
+    "hint_jump_duration": 200,
+    "hint_hand_duration": 400,
     "balloon_options": {
       "count": 15,
       "luminosity": "bright"

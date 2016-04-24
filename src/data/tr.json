@@ -823,6 +823,11 @@
             "name": "stroke",
             "type": "image",
             "path": "img/stroke.png"
+        },
+        {
+            "name": "decline",
+            "type": "image",
+            "path": "img/line.png"
         }
     ],
     "game": {
@@ -830,7 +835,7 @@
         "medium_size": 3,
         "hard_size": 4,
         "answer_type": "match",
-        "add_outline": true,
+        "add_outline": false,
         "outline_image": "top_box",
         "session_step": 10,
         "step_score": 5,
@@ -1330,6 +1335,36 @@
             "x": {
                 "multiplier": 0.3,
                 "constant": 0
+            },
+            "y": {
+                "multiplier": 0.5,
+                "constant": 0
+            }
+        },
+        {
+            "image": "decline",
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 1,
+                "constant": -20
+            },
+            "y": {
+                "multiplier": 0.5,
+                "constant": 0
+            }
+        },
+        {
+            "image": "decline",
+            "anchor": {
+                "x": 1,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 1,
+                "constant": -340
             },
             "y": {
                 "multiplier": 0.5,

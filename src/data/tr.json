@@ -13,7 +13,7 @@
   "settings/hint_duration/description": "Oyunun içindeki ipucularının süresini değiştirir.",
   "loadingText": "Yükleniyor...",
   "loadingFont": "60px mfont",
-  "loadingBackground": "#c3cb71",
+  "loadingBackground": "#FAC51C",
   "loadingColor": "#fff",
   "announceText": "%s",
   "announceTextStyle": {
@@ -860,7 +860,7 @@
     },
     "vertical": {
       "height": {
-        "multiplier": 0.85,
+        "multiplier": 0.8,
         "constant": 0
       },
       "x": {

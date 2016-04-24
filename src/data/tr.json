@@ -830,7 +830,7 @@
         "medium_size": 3,
         "hard_size": 4,
         "answer_type": "match",
-        "add_outline": true,
+        "add_outline": false,
         "outline_image": "top_box",
         "session_step": 10,
         "step_score": 5,

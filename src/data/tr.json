@@ -1339,5 +1339,6 @@
     ],
     "play_background_color": "#FAC51C",
     "home_background_color": "#FAC51C",
-    "over_background_color": "#FAC51C"
+    "over_background_color": "#FAC51C",
+    "add_outline": false
 }

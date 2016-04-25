@@ -828,6 +828,11 @@
             "name": "decline",
             "type": "image",
             "path": "img/line.png"
+        },
+        {
+            "name": "backmusic",
+            "type": "audio",
+            "path": "audio/bg.mp3"
         }
     ],
     "game": {
@@ -1405,5 +1410,28 @@
         "wordWrapWidth": 900,
         "boundsAlignH": "center",
         "boundsAlignV": "top"
+    },
+    "game_music": {
+        "music": "backmusic",
+        "volume": 1,
+        "loop": true,
+        "volume_load_screen": 1,
+        "volume_home_screen": 1,
+        "volume_play_screen": 0.3,
+        "volume_over_screen": 1
+    },
+    "homePlayButton": {
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "x": {
+            "multiplier": 0.5,
+            "constant": 0
+        },
+        "y": {
+            "multiplier": 0.7,
+            "constant": 0
+        }
     }
 }

@@ -14,10 +14,10 @@
     "loadingText": "Yükleniyor...",
     "loadingFont": "60px mfont",
     "loadingBackground": "#FAC51C",
-    "loadingColor": "#fff",
+    "loadingColor": "#cc3366",
     "announceText": "%s",
     "announceTextStyle": {
-        "strokeThickness": 4,
+        "strokeThickness": 10,
         "stroke": "#FFFFFF",
         "font": "65px mfont",
         "align": "center"
@@ -1334,7 +1334,7 @@
             "text": "Bamya"
         }
     ],
-    "custom_announce_color": "#CC3366",
+    "custom_announce_color": "#cc3366",
     "background_image": "back_pattern",
     "decoration": [
         {
@@ -1389,8 +1389,8 @@
     "name_shadow": {
         "x": 4,
         "y": 4,
-        "color": "#333333",
-        "blur": 2
+        "color": "rgba(0,0,0,0.2)",
+        "blur": 4
     },
     "gameNameLayout": {
         "anchor": {
@@ -1402,15 +1402,15 @@
             "constant": 0
         },
         "y": {
-            "multiplier": 0.3,
+            "multiplier": 0.35,
             "constant": 0
         }
     },
     "gameNameTextStyle": {
-        "strokeThickness": 8,
+        "strokeThickness": 10,
         "stroke": "#FFFFFF",
         "font": "96px mfont",
-        "fill": "#18B9F2",
+        "fill": "#cc3366",
         "align": "center",
         "wordWrap": true,
         "wordWrapWidth": 900,
@@ -1436,7 +1436,7 @@
             "constant": 0
         },
         "y": {
-            "multiplier": 0.7,
+            "multiplier": 0.65,
             "constant": 0
         }
     }

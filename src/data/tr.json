@@ -833,6 +833,11 @@
             "name": "backmusic",
             "type": "audio",
             "path": "audio/bg.mp3"
+        },
+        {
+            "name": "balonpop",
+            "type": "audio",
+            "path": "audio/balon.mp3"
         }
     ],
     "game": {
@@ -859,7 +864,8 @@
         "balloon_options": {
             "count": 15,
             "luminosity": "bright"
-        }
+        },
+        "balloon_sound": "balonpop"
     },
     "layout": {
         "fixed_size": false,

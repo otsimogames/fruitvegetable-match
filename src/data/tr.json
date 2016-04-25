@@ -838,6 +838,21 @@
             "name": "balonpop",
             "type": "audio",
             "path": "audio/balon.mp3"
+        },
+        {
+            "name": "clickSound",
+            "type": "audio",
+            "path": "audio/click.mp3"
+        },
+        {
+            "name": "victorySound",
+            "type": "audio",
+            "path": "audio/finish.mp3"
+        },
+        {
+            "name": "congSound",
+            "type": "audio",
+            "path": "audio/tr/tebrikler.mp3"
         }
     ],
     "game": {
@@ -865,7 +880,9 @@
             "count": 15,
             "luminosity": "bright"
         },
-        "balloon_sound": "balonpop"
+        "balloon_sound": "balonpop",
+        "correct_sound": "clickSound",
+        "click_sound": "applause"
     },
     "layout": {
         "fixed_size": false,
@@ -1438,6 +1455,54 @@
         "y": {
             "multiplier": 0.65,
             "constant": 0
+        }
+    },
+    "ending_scene": {
+        "victory_sound": "victorySound",
+        "duration": 1000,
+        "text": {
+            "text": "Tebrikler",
+            "sound": "congSound",
+            "style": {
+                "strokeThickness": 18,
+                "stroke": "#FFFFFF",
+                "font": "98px mfont",
+                "fill": "#00FF22",
+                "align": "center",
+                "maxLines": 2,
+                "wordWrap": true,
+                "wordWrapWidth": 960,
+                "boundsAlignH": "center",
+                "boundsAlignV": "top"
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 0.5,
+                "constant": 0
+            },
+            "y": {
+                "multiplier": 0.3,
+                "constant": 0
+            }
+        },
+        "button": {
+            "delay": 3000,
+            "image": "playButton",
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 0.5,
+                "constant": 0
+            },
+            "y": {
+                "multiplier": 0.3,
+                "constant": 0
+            }
         }
     }
 }

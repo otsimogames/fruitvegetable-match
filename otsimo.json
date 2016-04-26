@@ -33,7 +33,8 @@
             "icon": "i18n/tr/m-fruitvegetable-b.png",
             "images": [
               "i18n/tr/fm-src.png",
-              "i18n/tr/fm-src2.png"
+              "i18n/tr/fm-src2.png",
+              "i18n/tr/fm-src3.png"
             ],
             "assets": [
                 "img/tr",

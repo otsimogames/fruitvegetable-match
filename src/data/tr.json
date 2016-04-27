@@ -882,7 +882,8 @@
         },
         "balloon_sound": "balonpop",
         "correct_sound": "applause",
-        "click_sound": "clickSound"
+        "click_sound": "clickSound",
+        "hint_hand_match_duration": 900
     },
     "layout": {
         "fixed_size": false,

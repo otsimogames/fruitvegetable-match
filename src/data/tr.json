@@ -866,7 +866,7 @@
         "step_score": 5,
         "question_from": "meyvesebze",
         "answers_from": "meyvesebze",
-        "hint_type": "jump",
+        "hint_type": "hand",
         "hide_item_on": 1,
         "hiding_type": "fade",
         "hiding_fade_alpha": 0.2,

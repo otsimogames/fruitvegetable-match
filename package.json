@@ -1,16 +1,16 @@
 {
-    "name": "memory-game-colors",
-    "version": "1.0.0",
+    "name": "otsimo-fruitvegetable-match",
+    "version": "1.1.0",
     "description": "",
     "repository": {
         "type": "git",
-        "url": "https://github.com/otsimo/memory-game-colors.git"
+        "url": "https://github.com/otsimogames/fruitvegetable-match.git"
     },
     "author": "Sercan Değirmenci <sercan@otsimo.com>",
-    "license": "Apache 2",
-    "homepage": "https://github.com/otsimo/memory-game-colors",
+    "license": "GPL-3.0",
+    "homepage": "https://github.com/otsimogames/fruitvegetable-match",
     "dependencies": {
-      "otsimo-matching-game": "^1.0.4"
+        "otsimo-matching-game": "^1.0.4"
     },
     "scripts": {
         "test": "eslint js/*.js",

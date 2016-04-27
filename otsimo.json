@@ -1,15 +1,15 @@
 {
     "unique_name": "fruitvegetable-match",
-    "version": "1.0.5",
+    "version": "1.1.0",
     "main": "index.html",
-    "licence": "GPL",
+    "licence": "GPL-3.0",
     "languages": [
         "tr"
     ],
     "default_language": "tr",
     "developer_name": "Otsimo",
-    "homepage": "https://github.com/otsimo/memory-game-colors",
-    "repository": "git@github.com:otsimo/memory-game-colors.git",
+    "homepage": "https://github.com/otsimogames/fruitvegetable-match",
+    "repository": "https://github.com/otsimogames/fruitvegetable-match.git",
     "authors": [
         {
             "name": "Otsimo",
@@ -32,9 +32,9 @@
             "logo": "i18n/tr/m-fruitvegetable-s.png",
             "icon": "i18n/tr/m-fruitvegetable-b.png",
             "images": [
-              "i18n/tr/fm-src.png",
-              "i18n/tr/fm-src2.png",
-              "i18n/tr/fm-src3.png"
+                "i18n/tr/fm-src.png",
+                "i18n/tr/fm-src2.png",
+                "i18n/tr/fm-src3.png"
             ],
             "assets": [
                 "img/tr",

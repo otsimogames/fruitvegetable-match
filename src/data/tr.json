@@ -881,8 +881,8 @@
             "luminosity": "bright"
         },
         "balloon_sound": "balonpop",
-        "correct_sound": "clickSound",
-        "click_sound": "applause"
+        "correct_sound": "applause",
+        "click_sound": "clickSound"
     },
     "layout": {
         "fixed_size": false,
@@ -1503,8 +1503,6 @@
                 "multiplier": 0.7,
                 "constant": 0
             }
-        },
-        "correct_sound": "applause",
-        "click_sound": "clickSound"
+        }
     }
 }

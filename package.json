@@ -1,6 +1,6 @@
 {
     "name": "otsimo-fruitvegetable-match",
-    "version": "1.1.0",
+    "version": "1.1.8",
     "description": "",
     "repository": {
         "type": "git",
@@ -10,6 +10,7 @@
     "license": "GPL-3.0",
     "homepage": "https://github.com/otsimogames/fruitvegetable-match",
     "dependencies": {
+        "babel-runtime": "^6.6.1",
         "otsimo-matching-game": "^1.0.4"
     },
     "scripts": {
@@ -21,6 +22,8 @@
         "babel-core": "^6.3.21",
         "babel-plugin-transform-es5-property-mutators": "^6.3.13",
         "babel-plugin-transform-object-assign": "^6.3.13",
+        "babel-plugin-transform-runtime": "^6.8.0",
+        "babel-polyfill": "^6.8.0",
         "babel-preset-es2015": "^6.3.13",
         "babelify": "^7.2.0",
         "browser-sync": "^2.10.1",

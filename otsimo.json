@@ -1,10 +1,11 @@
 {
     "unique_name": "fruitvegetable-match",
-    "version": "1.3.1",
+    "version": "1.5.2",
     "main": "index.html",
     "licence": "GPL-3.0",
     "languages": [
-        "tr"
+        "tr",
+        "en"
     ],
     "default_language": "tr",
     "developer_name": "Otsimo",
@@ -39,6 +40,27 @@
             "assets": [
                 "img/tr",
                 "audio/tr"
+            ]
+        },
+        {
+            "language": "en",
+            "visible_name": "Meyve-Sebzeleri Eşleştirme",
+            "summary": "Kolayca meyve ve sebzeleri öğrenmek için eşleştirme oyunudur.",
+            "description": "Çocuklar eşleştirme sayesinde meyve ve sebzeleri kolayca öğrenir ve tekrar edebilirler. Meyve ve sebzeleri hiç bilmeyen veya biraz bilen çocuklar için özel olarak geliştirilmiştir.",
+            "keywords": [
+                "çizim",
+                "harf"
+            ],
+            "logo": "i18n/en/m-fruitvegetable-s.png",
+            "icon": "i18n/en/m-fruitvegetable-b-en.png",
+            "images": [
+                "i18n/en/fm-src.png",
+                "i18n/en/fm-src2.png",
+                "i18n/en/fm-src3.png"
+            ],
+            "assets": [
+                "img/en",
+                "audio/en"
             ]
         }
     ],

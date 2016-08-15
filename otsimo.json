@@ -44,14 +44,14 @@
         },
         {
             "language": "en",
-            "visible_name": "Meyve-Sebzeleri Eşleştirme",
-            "summary": "Kolayca meyve ve sebzeleri öğrenmek için eşleştirme oyunudur.",
-            "description": "Çocuklar eşleştirme sayesinde meyve ve sebzeleri kolayca öğrenir ve tekrar edebilirler. Meyve ve sebzeleri hiç bilmeyen veya biraz bilen çocuklar için özel olarak geliştirilmiştir.",
+            "visible_name": "Match Fruits/Veggies",
+            "summary": "Small matching game to learn Fruits/Veggies",
+            "description": "Children learn the Fruits/Veggies by matching the options easily. Fruits/Veggies Game has been specially developed for children who have little or no knowledge about Fruits/Veggies.",
             "keywords": [
-                "çizim",
-                "harf"
+                "match",
+                "fruit"
             ],
-            "logo": "i18n/en/m-fruitvegetable-s.png",
+            "logo": "i18n/tr/m-fruitvegetable-s.png",
             "icon": "i18n/en/m-fruitvegetable-b-en.png",
             "images": [
                 "i18n/en/fm-src.png",

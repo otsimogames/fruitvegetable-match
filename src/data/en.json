@@ -413,7 +413,8 @@
         "balloon_sound": "balonpop",
         "correct_sound": "applause",
         "click_sound": "clickSound",
-        "hint_hand_match_duration": 900
+        "hint_hand_match_duration": 900,
+        "init_tts": true
     },
     "layout": {
         "fixed_size": false,
@@ -1083,5 +1084,8 @@
                 "constant": 0
             }
         }
-    }
+    },
+    "tts_voices": [
+        "com.apple.ttsbundle.Samantha-compact"
+    ]
 }

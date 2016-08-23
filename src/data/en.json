@@ -300,11 +300,6 @@
             "path": "audio/applause.mp3"
         },
         {
-            "name": "welcome",
-            "type": "audio",
-            "path": "audio/tr/hos_geldin.mp3"
-        },
-        {
             "name": "try_again",
             "type": "audio",
             "path": "audio/tr/tekrar_dene.mp3"

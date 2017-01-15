@@ -65,5 +65,8 @@
         }
     ],
     "loading_color": "#FAC51C",
-    "ab_test": ""
+    "ab_test": "",
+    "labels": {
+        "categories": "match,fruit,vegetable,fruit-vegetable"
+    }
 }

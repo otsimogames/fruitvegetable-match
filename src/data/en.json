@@ -292,7 +292,7 @@
         {
             "name": "congratulations",
             "type": "audio",
-            "path": "audio/tr/tebrikler.mp3"
+            "path": "audio/en/congratulations!.mp3"
         },
         {
             "name": "applause",
@@ -302,7 +302,7 @@
         {
             "name": "try_again",
             "type": "audio",
-            "path": "audio/tr/tekrar_dene.mp3"
+            "path": "audio/en/try-again!.mp3"
         },
         {
             "name": "blue_audio",
@@ -378,6 +378,476 @@
             "name": "congSound",
             "type": "audio",
             "path": "audio/tr/tebrikler.mp3"
+        }, 
+        {
+            "name": "almond_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/almond.mp3"
+        },
+        {
+            "name": "almond_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-almond.mp3"
+        },
+        {
+            "name": "apple_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/apple.mp3"
+        },
+        {
+            "name": "apple_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-apple.mp3"
+        },
+        {
+            "name": "apricot_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/apricot.mp3"
+        },
+        {
+            "name": "apricot_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-apricot.mp3"
+        },
+        {
+            "name": "banana_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/banana.mp3"
+        },
+        {
+            "name": "banana_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-banana.mp3"
+        },
+        {
+            "name": "blackberry_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/blackberry.mp3"
+        },
+        {
+            "name": "blackberry_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-blackberry.mp3"
+        },
+        {
+            "name": "cherry_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/cherry.mp3"
+        },
+        {
+            "name": "cherry_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-cherry.mp3"
+        },
+        {
+            "name": "fig_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/fig.mp3"
+        },
+        {
+            "name": "fig_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-fig.mp3"
+        },
+        {
+            "name": "grapefruit_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/grapefruit.mp3"
+        },
+        {
+            "name": "grapefruit_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-grapefruit.mp3"
+        },
+        {
+            "name": "grape_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/grape.mp3"
+        },
+        {
+            "name": "grape_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-grape.mp3"
+        },
+        {
+            "name": "kiwi_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/kiwi.mp3"
+        },
+        {
+            "name": "kiwi_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-kiwi.mp3"
+        },
+        {
+            "name": "coconut_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/coconut.mp3"
+        },
+        {
+            "name": "coconut_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-coconut.mp3"
+        },
+        {
+            "name": "lemon_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/lemon.mp3"
+        },
+        {
+            "name": "lemon_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-lemon.mp3"
+        },
+        {
+            "name": "orange_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/orange.mp3"
+        },
+        {
+            "name": "orange_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-orange.mp3"
+        },
+        {
+            "name": "peach_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/peach.mp3"
+        },
+        {
+            "name": "peach_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-peach.mp3"
+        },
+        {
+            "name": "pear_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pear.mp3"
+        },
+        {
+            "name": "pear_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pear.mp3"
+        },
+        {
+            "name": "pineapple_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pineapple.mp3"
+        },
+        {
+            "name": "pineapple_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pineapple.mp3"
+        },
+        {
+            "name": "plum_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/plum.mp3"
+        },
+        {
+            "name": "plum_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-plum.mp3"
+        },
+        {
+            "name": "peanut_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/peanut.mp3"
+        },
+        {
+            "name": "peanut_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-peanut.mp3"
+        },
+        {
+            "name": "strawberry_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/strawberry.mp3"
+        },
+        {
+            "name": "strawberry_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-strawberry.mp3"
+        },
+        {
+            "name": "mandarin_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/mandarin.mp3"
+        },
+        {
+            "name": "mandarin_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-mandarin.mp3"
+        },
+        {
+            "name": "watermelon_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/watermelon.mp3"
+        },
+        {
+            "name": "watermelon_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-watermelon.mp3"
+        },
+        {
+            "name": "melon_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/melon.mp3"
+        },
+        {
+            "name": "melon_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-melon.mp3"
+        },
+        {
+            "name": "mulberry_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/mulberry.mp3"
+        },
+        {
+            "name": "mulberry_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-mulberry.mp3"
+        },
+        {
+            "name": "quince_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/quince.mp3"
+        },
+        {
+            "name": "quince_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-quince.mp3"
+        },
+        {
+            "name": "walnut_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/walnut.mp3"
+        },
+        {
+            "name": "walnut_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-walnut.mp3"
+        },
+        {
+            "name": "hazelnut_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/hazelnut.mp3"
+        },
+        {
+            "name": "hazelnut_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-hazelnut.mp3"
+        },
+        {
+            "name": "chestnut_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/chestnut.mp3"
+        },
+        {
+            "name": "chestnut_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-chestnut.mp3"
+        },
+        {
+            "name": "pomegranate_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pomegranate.mp3"
+        },
+        {
+            "name": "pomegranate_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pomegranate.mp3"
+        },
+        {
+            "name": "tomato_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/tomato.mp3"
+        },
+        {
+            "name": "tomato_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-tomato.mp3"
+        },
+        {
+            "name": "potato_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/potato.mp3"
+        },
+        {
+            "name": "potato_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-potato.mp3"
+        },
+        {
+            "name": "onion_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/onion.mp3"
+        },
+        {
+            "name": "onion_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-onion.mp3"
+        },
+        {
+            "name": "carrot_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/carrot.mp3"
+        },
+        {
+            "name": "carrot_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-carrot.mp3"
+        },
+        {
+            "name": "cucumber_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/cucumber.mp3"
+        },
+        {
+            "name": "cucumber_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-cucumber.mp3"
+        },
+        {
+            "name": "eggplant_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/eggplant.mp3"
+        },
+        {
+            "name": "eggplant_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-eggplant.mp3"
+        },
+        {
+            "name": "pea_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pea.mp3"
+        },
+        {
+            "name": "pea_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pea.mp3"
+        },
+        {
+            "name": "spinach_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/spinach.mp3"
+        },
+        {
+            "name": "spinach_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-spinach.mp3"
+        },
+        {
+            "name": "garlic_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/garlic.mp3"
+        },
+        {
+            "name": "garlic_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-garlic.mp3"
+        },
+        {
+            "name": "cabbage_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/cabbage.mp3"
+        },
+        {
+            "name": "cabbage_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-cabbage.mp3"
+        },
+        {
+            "name": "pumpkin_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pumpkin.mp3"
+        },
+        {
+            "name": "pumpkin_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pumpkin.mp3"
+        },
+        {
+            "name": "radish_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/radish.mp3"
+        },
+        {
+            "name": "radish_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-radish.mp3"
+        },
+        {
+            "name": "broccoli_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/broccoli.mp3"
+        },
+        {
+            "name": "broccoli_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-broccoli.mp3"
+        },
+        {
+            "name": "lettuce_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/lettuce.mp3"
+        },
+        {
+            "name": "lettuce_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-lettuce.mp3"
+        },
+        {
+            "name": "artichoke_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/artichoke.mp3"
+        },
+        {
+            "name": "artichoke_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-artichoke.mp3"
+        },
+        {
+            "name": "pepper_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/pepper.mp3"
+        },
+        {
+            "name": "pepper_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-pepper.mp3"
+        },
+        {
+            "name": "beans_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/beans.mp3"
+        },
+        {
+            "name": "beans_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-beans.mp3"
+        },
+        {
+            "name": "zucchini_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/zucchini.mp3"
+        },
+        {
+            "name": "zucchini_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-zucchini.mp3"
+        },
+        {
+            "name": "okra_audio",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeng/okra.mp3"
+        },
+        {
+            "name": "okra_question2",
+            "type": "audio",
+            "path": "audio/meyvesebze/soundeeng/match-the-okra.mp3"
         }
     ],
     "game": {
@@ -460,472 +930,425 @@
         {
             "id": "almond",
             "kind": "almond",
-            "audio": "almond",
-            "question": "match the almond",
+            "audio": "almond_audio",
+            "question": "almond_question2",
             "text": "Almond",
             "image": "almond",
-            "tint": "0xFFFFFF",
-            "tts": true
+            "tint": "0xFFFFFF" 
         },
         {
             "id": "apple",
             "kind": "apple",
-            "audio": "apple",
-            "question": "match the apple",
+            "audio": "apple_audio",
+            "question": "apple_question2",
             "text": "Apple",
             "image": "apple",
-            "tint": "0xFFFFFF",
-            "tts": true
+            "tint": "0xFFFFFF" 
         },
         {
             "image": "apricot",
             "tint": "0xFFFFFF",
             "id": "apricot",
             "kind": "apricot",
-            "audio": "apricot",
-            "question": "match the apricot",
-            "text": "Apricot",
-            "tts": true
+            "audio": "apricot_audio",
+            "question": "apricot_question2",
+            "text": "Apricot" 
         },
         {
             "image": "banana",
             "tint": "0xFFFFFF",
             "id": "banana",
             "kind": "banana",
-            "audio": "banana",
-            "question": "match the banana",
-            "text": "Banana",
-            "tts": true
+            "audio": "banana_audio",
+            "question": "banana_question2",
+            "text": "Banana" 
         },
         {
             "image": "blackberry",
             "tint": "0xFFFFFF",
             "id": "blackberry",
             "kind": "blackberry",
-            "audio": "blackberry",
-            "question": "match the blackberry",
-            "text": "Blackberry",
-            "tts": true
+            "audio": "blackberry_audio",
+            "question": "blackberry_question2",
+            "text": "Blackberry" 
         },
         {
             "image": "cherry",
             "tint": "0xFFFFFF",
             "id": "cherry",
             "kind": "cherry",
-            "audio": "cherry",
-            "question": "match the cherry",
-            "text": "Cherry",
-            "tts": true
+            "audio": "cherry_audio",
+            "question": "cherry_question2",
+            "text": "Cherry" 
         },
         {
             "image": "fig",
             "tint": "0xFFFFFF",
             "id": "fig",
             "kind": "fig",
-            "audio": "fig",
-            "question": "match the fig",
-            "text": "Fig",
-            "tts": true
+            "audio": "fig_audio",
+            "question": "fig_question2",
+            "text": "Fig" 
         },
         {
             "image": "grapefruit",
             "tint": "0xFFFFFF",
             "id": "grapefruit",
             "kind": "grapefruit",
-            "audio": "grapefruit",
-            "question": "match the grapefruit",
-            "text": "Grapefruit",
-            "tts": true
+            "audio": "grapefruit_audio",
+            "question": "grapefruit_question2",
+            "text": "Grapefruit" 
         },
         {
             "image": "grape",
             "tint": "0xFFFFFF",
             "id": "grape",
             "kind": "grape",
-            "audio": "grape",
-            "question": "match the grape",
-            "text": "Grape",
-            "tts": true
+            "audio": "grape_audio",
+            "question": "grape_question2",
+            "text": "Grape" 
         },
         {
             "image": "kiwi",
             "tint": "0xFFFFFF",
             "id": "kiwi",
             "kind": "kiwi",
-            "audio": "kiwi",
-            "question": "match the kiwi",
-            "text": "Kiwi",
-            "tts": true
+            "audio": "kiwi_audio",
+            "question": "kiwi_question2",
+            "text": "Kiwi"
         },
         {
             "image": "coconut",
             "tint": "0xFFFFFF",
             "id": "coconut",
             "kind": "coconut",
-            "audio": "coconut",
-            "question": "match the coconut",
-            "text": "Coconut",
-            "tts": true
+            "audio": "coconut_audio",
+            "question": "coconut_question2",
+            "text": "Coconut" 
         },
         {
             "image": "lemon",
             "tint": "0xFFFFFF",
             "id": "lemon",
             "kind": "lemon",
-            "audio": "lemon",
-            "question": "match the lemon",
-            "text": "Lemon",
-            "tts": true
+            "audio": "lemon_audio",
+            "question": "lemon_question2",
+            "text": "Lemon" 
         },
         {
             "image": "orange",
             "tint": "0xFFFFFF",
             "id": "orange",
             "kind": "orange",
-            "audio": "orange",
-            "question": "match the orange",
-            "text": "Orange",
-            "tts": true
+            "audio": "orange_audio",
+            "question": "orange_question2",
+            "text": "Orange" 
         },
         {
             "image": "peach",
             "tint": "0xFFFFFF",
             "id": "peach",
             "kind": "peach",
-            "audio": "peach",
-            "question": "match the peach",
-            "text": "Peach",
-            "tts": true
+            "audio": "peach_audio",
+            "question": "peach_question2",
+            "text": "Peach" 
         },
         {
             "image": "pear",
             "tint": "0xFFFFFF",
             "id": "pear",
             "kind": "pear",
-            "audio": "pear",
-            "question": "match the pear",
-            "text": "Pear",
-            "tts": true
+            "audio": "pear_audio",
+            "question": "pear_question2",
+            "text": "Pear" 
         },
         {
             "image": "pineapple",
             "tint": "0xFFFFFF",
             "id": "pineapple",
             "kind": "pineapple",
-            "audio": "pineapple",
-            "question": "match the pineapple",
-            "text": "Pineapple",
-            "tts": true
+            "audio": "pineapple_audio",
+            "question": "pineapple_question2",
+            "text": "Pineapple" 
         },
         {
             "image": "plum",
             "tint": "0xFFFFFF",
             "id": "plum",
             "kind": "plum",
-            "audio": "plum",
-            "question": "match the plum",
-            "text": "Plum",
-            "tts": true
+            "audio": "plum_audio",
+            "question": "plum_question2",
+            "text": "Plum" 
         },
         {
             "image": "peanut",
             "tint": "0xFFFFFF",
             "id": "peanut",
             "kind": "peanut",
-            "audio": "peanut",
-            "question": "match the peanut",
-            "text": "Peanut",
-            "tts": true
+            "audio": "peanut_audio",
+            "question": "peanut_question2",
+            "text": "Peanut" 
         },
         {
             "image": "strawberry",
             "tint": "0xFFFFFF",
             "id": "strawberry",
             "kind": "strawberry",
-            "audio": "strawberry",
-            "question": "match the strawberry",
-            "text": "Strawberry",
-            "tts": true
+            "audio": "strawberry_audio",
+            "question": "strawberry_question2",
+            "text": "Strawberry" 
         },
         {
             "image": "mandarin",
             "tint": "0xFFFFFF",
             "id": "mandarin",
             "kind": "mandarin",
-            "audio": "mandarin",
-            "question": "match the mandarin",
-            "text": "Mandarin",
-            "tts": true
+            "audio": "mandarin_audio",
+            "question": "mandarin_question2",
+            "text": "Mandarin" 
         },
         {
             "image": "watermelon",
             "tint": "0xFFFFFF",
             "id": "watermelon",
             "kind": "watermelon",
-            "audio": "watermelon",
-            "question": "match the watermelon",
-            "text": "Watermelon",
-            "tts": true
+            "audio": "watermelon_audio",
+            "question": "watermelon_question2",
+            "text": "Watermelon" 
         },
         {
             "image": "melon",
             "tint": "0xFFFFFF",
             "id": "melon",
             "kind": "melon",
-            "audio": "melon",
-            "question": "match the melon",
-            "text": "Melon",
-            "tts": true
+            "audio": "melon_audio",
+            "question": "melon_question2",
+            "text": "Melon" 
         },
         {
             "image": "mulberry",
             "tint": "0xFFFFFF",
             "id": "mulberry",
             "kind": "mulberry",
-            "audio": "mulberry",
-            "question": "match the mulberry",
-            "text": "Mulberry",
-            "tts": true
+            "audio": "mulberry_audio",
+            "question": "mulberry_question2",
+            "text": "Mulberry" 
         },
         {
             "image": "quince",
             "tint": "0xFFFFFF",
             "id": "quince",
             "kind": "quince",
-            "audio": "quince",
-            "question": "match the quince",
-            "text": "Quince",
-            "tts": true
+            "audio": "quince_audio",
+            "question": "quince_question2",
+            "text": "Quince" 
         },
         {
             "image": "walnut",
             "tint": "0xFFFFFF",
             "id": "walnut",
             "kind": "walnut",
-            "audio": "walnut",
-            "question": "match the walnut",
-            "text": "Walnut",
-            "tts": true
+            "audio": "walnut_audio",
+            "question": "walnut_question2",
+            "text": "Walnut" 
         },
         {
             "image": "hazelnut",
             "tint": "0xFFFFFF",
             "id": "hazelnut",
             "kind": "hazelnut",
-            "audio": "hazelnut",
-            "question": "match the hazelnut",
-            "text": "Hazelnut",
-            "tts": true
+            "audio": "hazelnut_audio",
+            "question": "hazelnut_question2",
+            "text": "Hazelnut" 
         },
         {
             "image": "chestnut",
             "tint": "0xFFFFFF",
             "id": "chestnut",
             "kind": "chestnut",
-            "audio": "chestnut",
-            "question": "match the chestnut",
-            "text": "Chestnut",
-            "tts": true
+            "audio": "chestnut_audio",
+            "question": "chestnut_question2",
+            "text": "Chestnut" 
         },
         {
             "image": "pomegranate",
             "tint": "0xFFFFFF",
             "id": "pomegranate",
             "kind": "pomegranate",
-            "audio": "pomegranate",
-            "question": "match the pomegranate",
-            "text": "Pomegranate",
-            "tts": true
+            "audio": "pomegranate_audio",
+            "question": "pomegranate_question2",
+            "text": "Pomegranate"  
         },
         {
             "image": "tomato",
             "tint": "0xFFFFFF",
             "id": "tomato",
             "kind": "tomato",
-            "audio": "tomato",
-            "question": "match the tomato",
-            "text": "Tomato",
-            "tts": true
+            "audio": "tomato_audio",
+            "question": "tomato_question2",
+            "text": "Tomato" 
         },
         {
             "image": "potato",
             "tint": "0xFFFFFF",
             "id": "potato",
             "kind": "potato",
-            "audio": "potato",
-            "question": "match the potato",
-            "text": "Potato",
-            "tts": true
+            "audio": "potato_audio",
+            "question": "potato_question2",
+            "text": "Potato" 
         },
         {
             "image": "onion",
             "tint": "0xFFFFFF",
             "id": "onion",
             "kind": "onion",
-            "audio": "onion",
-            "question": "match the onion",
-            "text": "Onion",
-            "tts": true
+            "audio": "onion_audio",
+            "question": "onion_question2",
+            "text": "Onion"  
         },
         {
             "image": "carrot",
             "tint": "0xFFFFFF",
             "id": "carrot",
             "kind": "carrot",
-            "audio": "carrot",
-            "question": "match the carrot",
-            "text": "Carrot",
-            "tts": true
+            "audio": "carrot_audio",
+            "question": "carrot_question2",
+            "text": "Carrot" 
         },
         {
             "image": "cucumber",
             "tint": "0xFFFFFF",
             "id": "cucumber",
             "kind": "cucumber",
-            "audio": "cucumber",
-            "question": "match the cucumber",
-            "text": "Cucumber",
-            "tts": true
+            "audio": "cucumber_audio",
+            "question": "cucumber_question2",
+            "text": "Cucumber" 
         },
         {
             "image": "eggplant",
             "tint": "0xFFFFFF",
             "id": "eggplant",
             "kind": "eggplant",
-            "audio": "eggplant",
-            "question": "match the eggplant",
-            "text": "Eggplant",
-            "tts": true
+            "audio": "eggplant_audio",
+            "question": "eggplant_question2",
+            "text": "Eggplant" 
         },
         {
             "image": "pea",
             "tint": "0xFFFFFF",
             "id": "pea",
             "kind": "pea",
-            "audio": "pea",
-            "question": "match the pea",
-            "text": "Pea",
-            "tts": true
+            "audio": "pea_audio",
+            "question": "pea_question2",
+            "text": "Pea" 
         },
         {
             "image": "spinach",
             "tint": "0xFFFFFF",
             "id": "spinach",
             "kind": "spinach",
-            "audio": "spinach",
-            "question": "match the spinach",
-            "text": "Spinach",
-            "tts": true
+            "audio": "spinach_audio",
+            "question": "spinach_question2",
+            "text": "Spinach" 
         },
         {
             "image": "garlic",
             "tint": "0xFFFFFF",
             "id": "garlic",
             "kind": "garlic",
-            "audio": "garlic",
-            "question": "match the garlic",
-            "text": "Garlic",
-            "tts": true
+            "audio": "garlic_audio",
+            "question": "garlic_question2",
+            "text": "Garlic" 
         },
         {
             "image": "cabbage",
             "tint": "0xFFFFFF",
             "id": "cabbage",
             "kind": "cabbage",
-            "audio": "cabbage",
-            "question": "match the cabbage",
-            "text": "Cabbage",
-            "tts": true
+            "audio": "cabbage_audio",
+            "question": "cabbage_question2",
+            "text": "Cabbage" 
         },
         {
             "image": "pumpkin",
             "tint": "0xFFFFFF",
             "id": "pumpkin",
             "kind": "pumpkin",
-            "audio": "pumpkin",
-            "question": "match the pumpkin",
-            "text": "Pumpkin",
-            "tts": true
+            "audio": "pumpkin_audio",
+            "question": "pumpkin_question2",
+            "text": "Pumpkin" 
         },
         {
             "image": "radish",
             "tint": "0xFFFFFF",
             "id": "radish",
             "kind": "radish",
-            "audio": "radish",
-            "question": "match the radish",
-            "text": "Radish",
-            "tts": true
+            "audio": "radish_audio",
+            "question": "radish_question2",
+            "text": "Radish" 
         },
         {
             "image": "broccoli",
             "tint": "0xFFFFFF",
             "id": "broccoli",
             "kind": "broccoli",
-            "audio": "broccoli",
-            "question": "match the broccoli",
-            "text": "Broccoli",
-            "tts": true
+            "audio": "broccoli_audio",
+            "question": "broccoli_question2",
+            "text": "Broccoli"  
         },
         {
             "image": "lettuce",
             "tint": "0xFFFFFF",
             "id": "lettuce",
             "kind": "lettuce",
-            "audio": "lettuce",
-            "question": "match the lettuce",
-            "text": "Lettuce",
-            "tts": true
+            "audio": "lettuce_audio",
+            "question": "lettuce_question2",
+            "text": "Lettuce" 
         },
         {
             "image": "artichoke",
             "tint": "0xFFFFFF",
             "id": "artichoke",
             "kind": "artichoke",
-            "audio": "artichoke",
-            "question": "match the artichoke",
-            "text": "Artichoke",
-            "tts": true
+            "audio": "artichoke_audio",
+            "question": "artichoke_question2",
+            "text": "Artichoke" 
         },
         {
             "image": "pepper",
             "tint": "0xFFFFFF",
             "id": "pepper",
             "kind": "pepper",
-            "audio": "pepper",
-            "question": "match the pepper",
-            "text": "Pepper",
-            "tts": true
+            "audio": "pepper_audio",
+            "question": "pepper_question2",
+            "text": "Pepper"  
         },
         {
             "image": "beans",
             "tint": "0xFFFFFF",
             "id": "beans",
             "kind": "beans",
-            "audio": "beans",
-            "question": "match the beans",
-            "text": "Beans",
-            "tts": true
+            "audio": "beans_audio",
+            "question": "beans_question2",
+            "text": "Beans"  
         },
         {
             "image": "zucchini",
             "tint": "0xFFFFFF",
             "id": "zucchini",
             "kind": "zucchini",
-            "audio": "zucchini",
-            "question": "match the zucchini",
-            "text": "Zucchini",
-            "tts": true
+            "audio": "zucchini_audio",
+            "question": "zucchini_question2",
+            "text": "Zucchini"  
         },
         {
             "image": "okra",
             "tint": "0xFFFFFF",
             "id": "okra",
             "kind": "okra",
-            "audio": "okra",
-            "question": "match the okra",
-            "text": "Okra",
-            "tts": true
+            "audio": "okra_audio",
+            "question": "okra_question2",
+            "text": "Okra"  
         }
     ],
     "custom_announce_color": "#cc3366",

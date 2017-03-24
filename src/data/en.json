@@ -378,7 +378,7 @@
             "name": "congSound",
             "type": "audio",
             "path": "audio/tr/tebrikler.mp3"
-        }, 
+        },
         {
             "name": "almond_audio",
             "type": "audio",
@@ -934,7 +934,7 @@
             "question": "almond_question2",
             "text": "Almond",
             "image": "almond",
-            "tint": "0xFFFFFF" 
+            "tint": "0xFFFFFF"
         },
         {
             "id": "apple",
@@ -943,7 +943,7 @@
             "question": "apple_question2",
             "text": "Apple",
             "image": "apple",
-            "tint": "0xFFFFFF" 
+            "tint": "0xFFFFFF"
         },
         {
             "image": "apricot",
@@ -952,7 +952,7 @@
             "kind": "apricot",
             "audio": "apricot_audio",
             "question": "apricot_question2",
-            "text": "Apricot" 
+            "text": "Apricot"
         },
         {
             "image": "banana",
@@ -961,7 +961,7 @@
             "kind": "banana",
             "audio": "banana_audio",
             "question": "banana_question2",
-            "text": "Banana" 
+            "text": "Banana"
         },
         {
             "image": "blackberry",
@@ -970,7 +970,7 @@
             "kind": "blackberry",
             "audio": "blackberry_audio",
             "question": "blackberry_question2",
-            "text": "Blackberry" 
+            "text": "Blackberry"
         },
         {
             "image": "cherry",
@@ -979,7 +979,7 @@
             "kind": "cherry",
             "audio": "cherry_audio",
             "question": "cherry_question2",
-            "text": "Cherry" 
+            "text": "Cherry"
         },
         {
             "image": "fig",
@@ -988,7 +988,7 @@
             "kind": "fig",
             "audio": "fig_audio",
             "question": "fig_question2",
-            "text": "Fig" 
+            "text": "Fig"
         },
         {
             "image": "grapefruit",
@@ -997,7 +997,7 @@
             "kind": "grapefruit",
             "audio": "grapefruit_audio",
             "question": "grapefruit_question2",
-            "text": "Grapefruit" 
+            "text": "Grapefruit"
         },
         {
             "image": "grape",
@@ -1006,7 +1006,7 @@
             "kind": "grape",
             "audio": "grape_audio",
             "question": "grape_question2",
-            "text": "Grape" 
+            "text": "Grape"
         },
         {
             "image": "kiwi",
@@ -1024,7 +1024,7 @@
             "kind": "coconut",
             "audio": "coconut_audio",
             "question": "coconut_question2",
-            "text": "Coconut" 
+            "text": "Coconut"
         },
         {
             "image": "lemon",
@@ -1033,7 +1033,7 @@
             "kind": "lemon",
             "audio": "lemon_audio",
             "question": "lemon_question2",
-            "text": "Lemon" 
+            "text": "Lemon"
         },
         {
             "image": "orange",
@@ -1042,7 +1042,7 @@
             "kind": "orange",
             "audio": "orange_audio",
             "question": "orange_question2",
-            "text": "Orange" 
+            "text": "Orange"
         },
         {
             "image": "peach",
@@ -1051,7 +1051,7 @@
             "kind": "peach",
             "audio": "peach_audio",
             "question": "peach_question2",
-            "text": "Peach" 
+            "text": "Peach"
         },
         {
             "image": "pear",
@@ -1060,7 +1060,7 @@
             "kind": "pear",
             "audio": "pear_audio",
             "question": "pear_question2",
-            "text": "Pear" 
+            "text": "Pear"
         },
         {
             "image": "pineapple",
@@ -1069,7 +1069,7 @@
             "kind": "pineapple",
             "audio": "pineapple_audio",
             "question": "pineapple_question2",
-            "text": "Pineapple" 
+            "text": "Pineapple"
         },
         {
             "image": "plum",
@@ -1078,7 +1078,7 @@
             "kind": "plum",
             "audio": "plum_audio",
             "question": "plum_question2",
-            "text": "Plum" 
+            "text": "Plum"
         },
         {
             "image": "peanut",
@@ -1087,7 +1087,7 @@
             "kind": "peanut",
             "audio": "peanut_audio",
             "question": "peanut_question2",
-            "text": "Peanut" 
+            "text": "Peanut"
         },
         {
             "image": "strawberry",
@@ -1096,7 +1096,7 @@
             "kind": "strawberry",
             "audio": "strawberry_audio",
             "question": "strawberry_question2",
-            "text": "Strawberry" 
+            "text": "Strawberry"
         },
         {
             "image": "mandarin",
@@ -1105,7 +1105,7 @@
             "kind": "mandarin",
             "audio": "mandarin_audio",
             "question": "mandarin_question2",
-            "text": "Mandarin" 
+            "text": "Mandarin"
         },
         {
             "image": "watermelon",
@@ -1114,7 +1114,7 @@
             "kind": "watermelon",
             "audio": "watermelon_audio",
             "question": "watermelon_question2",
-            "text": "Watermelon" 
+            "text": "Watermelon"
         },
         {
             "image": "melon",
@@ -1123,7 +1123,7 @@
             "kind": "melon",
             "audio": "melon_audio",
             "question": "melon_question2",
-            "text": "Melon" 
+            "text": "Melon"
         },
         {
             "image": "mulberry",
@@ -1132,7 +1132,7 @@
             "kind": "mulberry",
             "audio": "mulberry_audio",
             "question": "mulberry_question2",
-            "text": "Mulberry" 
+            "text": "Mulberry"
         },
         {
             "image": "quince",
@@ -1141,7 +1141,7 @@
             "kind": "quince",
             "audio": "quince_audio",
             "question": "quince_question2",
-            "text": "Quince" 
+            "text": "Quince"
         },
         {
             "image": "walnut",
@@ -1150,7 +1150,7 @@
             "kind": "walnut",
             "audio": "walnut_audio",
             "question": "walnut_question2",
-            "text": "Walnut" 
+            "text": "Walnut"
         },
         {
             "image": "hazelnut",
@@ -1159,7 +1159,7 @@
             "kind": "hazelnut",
             "audio": "hazelnut_audio",
             "question": "hazelnut_question2",
-            "text": "Hazelnut" 
+            "text": "Hazelnut"
         },
         {
             "image": "chestnut",
@@ -1168,7 +1168,7 @@
             "kind": "chestnut",
             "audio": "chestnut_audio",
             "question": "chestnut_question2",
-            "text": "Chestnut" 
+            "text": "Chestnut"
         },
         {
             "image": "pomegranate",
@@ -1177,7 +1177,7 @@
             "kind": "pomegranate",
             "audio": "pomegranate_audio",
             "question": "pomegranate_question2",
-            "text": "Pomegranate"  
+            "text": "Pomegranate"
         },
         {
             "image": "tomato",
@@ -1186,7 +1186,7 @@
             "kind": "tomato",
             "audio": "tomato_audio",
             "question": "tomato_question2",
-            "text": "Tomato" 
+            "text": "Tomato"
         },
         {
             "image": "potato",
@@ -1195,7 +1195,7 @@
             "kind": "potato",
             "audio": "potato_audio",
             "question": "potato_question2",
-            "text": "Potato" 
+            "text": "Potato"
         },
         {
             "image": "onion",
@@ -1204,7 +1204,7 @@
             "kind": "onion",
             "audio": "onion_audio",
             "question": "onion_question2",
-            "text": "Onion"  
+            "text": "Onion"
         },
         {
             "image": "carrot",
@@ -1213,7 +1213,7 @@
             "kind": "carrot",
             "audio": "carrot_audio",
             "question": "carrot_question2",
-            "text": "Carrot" 
+            "text": "Carrot"
         },
         {
             "image": "cucumber",
@@ -1222,7 +1222,7 @@
             "kind": "cucumber",
             "audio": "cucumber_audio",
             "question": "cucumber_question2",
-            "text": "Cucumber" 
+            "text": "Cucumber"
         },
         {
             "image": "eggplant",
@@ -1231,7 +1231,7 @@
             "kind": "eggplant",
             "audio": "eggplant_audio",
             "question": "eggplant_question2",
-            "text": "Eggplant" 
+            "text": "Eggplant"
         },
         {
             "image": "pea",
@@ -1240,7 +1240,7 @@
             "kind": "pea",
             "audio": "pea_audio",
             "question": "pea_question2",
-            "text": "Pea" 
+            "text": "Pea"
         },
         {
             "image": "spinach",
@@ -1249,7 +1249,7 @@
             "kind": "spinach",
             "audio": "spinach_audio",
             "question": "spinach_question2",
-            "text": "Spinach" 
+            "text": "Spinach"
         },
         {
             "image": "garlic",
@@ -1258,7 +1258,7 @@
             "kind": "garlic",
             "audio": "garlic_audio",
             "question": "garlic_question2",
-            "text": "Garlic" 
+            "text": "Garlic"
         },
         {
             "image": "cabbage",
@@ -1267,7 +1267,7 @@
             "kind": "cabbage",
             "audio": "cabbage_audio",
             "question": "cabbage_question2",
-            "text": "Cabbage" 
+            "text": "Cabbage"
         },
         {
             "image": "pumpkin",
@@ -1276,7 +1276,7 @@
             "kind": "pumpkin",
             "audio": "pumpkin_audio",
             "question": "pumpkin_question2",
-            "text": "Pumpkin" 
+            "text": "Pumpkin"
         },
         {
             "image": "radish",
@@ -1285,7 +1285,7 @@
             "kind": "radish",
             "audio": "radish_audio",
             "question": "radish_question2",
-            "text": "Radish" 
+            "text": "Radish"
         },
         {
             "image": "broccoli",
@@ -1294,7 +1294,7 @@
             "kind": "broccoli",
             "audio": "broccoli_audio",
             "question": "broccoli_question2",
-            "text": "Broccoli"  
+            "text": "Broccoli"
         },
         {
             "image": "lettuce",
@@ -1303,7 +1303,7 @@
             "kind": "lettuce",
             "audio": "lettuce_audio",
             "question": "lettuce_question2",
-            "text": "Lettuce" 
+            "text": "Lettuce"
         },
         {
             "image": "artichoke",
@@ -1312,7 +1312,7 @@
             "kind": "artichoke",
             "audio": "artichoke_audio",
             "question": "artichoke_question2",
-            "text": "Artichoke" 
+            "text": "Artichoke"
         },
         {
             "image": "pepper",
@@ -1321,7 +1321,7 @@
             "kind": "pepper",
             "audio": "pepper_audio",
             "question": "pepper_question2",
-            "text": "Pepper"  
+            "text": "Pepper"
         },
         {
             "image": "beans",
@@ -1330,7 +1330,7 @@
             "kind": "beans",
             "audio": "beans_audio",
             "question": "beans_question2",
-            "text": "Beans"  
+            "text": "Beans"
         },
         {
             "image": "zucchini",
@@ -1339,7 +1339,7 @@
             "kind": "zucchini",
             "audio": "zucchini_audio",
             "question": "zucchini_question2",
-            "text": "Zucchini"  
+            "text": "Zucchini"
         },
         {
             "image": "okra",
@@ -1348,7 +1348,7 @@
             "kind": "okra",
             "audio": "okra_audio",
             "question": "okra_question2",
-            "text": "Okra"  
+            "text": "Okra"
         }
     ],
     "custom_announce_color": "#cc3366",
@@ -1458,7 +1458,7 @@
         }
     },
     "ending_scene": {
-        "victory_sound": "victorySound",
+        "victory_sound": "congratulations",
         "duration": 1000,
         "text": {
             "text": "Congratulations",

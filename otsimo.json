@@ -1,6 +1,6 @@
 {
     "unique_name": "fruitvegetable-match",
-    "version": "1.7.11",
+    "version": "1.7.24",
     "main": "index.html",
     "licence": "GPL-3.0",
     "languages": [
@@ -31,7 +31,7 @@
                 "renk"
             ],
             "logo": "i18n/tr/m-fruitvegetable-s.png",
-            "icon": "i18n/tr/m-fruitvegetable-b.png",
+            "icon": "i18n/tr/m-fruitvegetable-s.png",
             "images": [
                 "i18n/tr/fm-src.png",
                 "i18n/tr/fm-src2.png",
@@ -52,7 +52,7 @@
                 "fruit"
             ],
             "logo": "i18n/tr/m-fruitvegetable-s.png",
-            "icon": "i18n/en/m-fruitvegetable-b-en.png",
+            "icon": "i18n/tr/m-fruitvegetable-s.png",
             "images": [
                 "i18n/en/fm-src.png",
                 "i18n/en/fm-src2.png",

@@ -30,8 +30,8 @@
                 "hafıza",
                 "renk"
             ],
-            "logo": "i18n/tr/m-fruitvegetable-s.png",
-            "icon": "i18n/tr/m-fruitvegetable-s.png",
+            "logo": "i18n/logo.png",
+            "icon": "i18n/icon.png",
             "images": [
                 "i18n/tr/fm-src.png",
                 "i18n/tr/fm-src2.png",
@@ -51,8 +51,8 @@
                 "match",
                 "fruit"
             ],
-            "logo": "i18n/tr/m-fruitvegetable-s.png",
-            "icon": "i18n/tr/m-fruitvegetable-s.png",
+            "logo": "i18n/logo.png",
+            "icon": "i18n/icon.png",
             "images": [
                 "i18n/en/fm-src.png",
                 "i18n/en/fm-src2.png",

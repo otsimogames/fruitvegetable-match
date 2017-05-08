@@ -1,6 +1,6 @@
 {
     "name": "otsimo-fruitvegetable-match",
-    "version": "1.7.27",
+    "version": "1.7.33",
     "description": "",
     "repository": {
         "type": "git",
@@ -11,8 +11,8 @@
     "homepage": "https://github.com/otsimogames/fruitvegetable-match",
     "dependencies": {
         "babel-runtime": "^6.6.1",
-        "otsimo": "^1.6.8",
-        "otsimo-matching-game": "^1.0.4"
+        "otsimo": "1.6.9",
+        "otsimo-matching-game": "1.8.8"
     },
     "scripts": {
         "test": "eslint js/*.js",

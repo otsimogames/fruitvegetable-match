@@ -3775,21 +3775,21 @@ osenv@^0.1.4:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
 
-otsimo-matching-game@1.8.19:
-  version "1.8.19"
-  resolved "https://registry.yarnpkg.com/otsimo-matching-game/-/otsimo-matching-game-1.8.19.tgz#e478c09533934e5fa903307c39091db50323e6f8"
+otsimo-matching-game@1.8.22:
+  version "1.8.22"
+  resolved "https://registry.yarnpkg.com/otsimo-matching-game/-/otsimo-matching-game-1.8.22.tgz#bca1f3c5b85f815029e65a8e2f41508446ac8643"
   dependencies:
-    otsimo "1.8.14"
+    otsimo "1.8.24"
     phaser "^2.6.2"
     sprintf-js "^1.0.3"
-
-otsimo@1.8.14:
-  version "1.8.14"
-  resolved "https://registry.yarnpkg.com/otsimo/-/otsimo-1.8.14.tgz#8a6de7f977cb7ef17e91c8fbf7aadec1bc937c65"
 
 otsimo@1.8.15:
   version "1.8.15"
   resolved "https://registry.yarnpkg.com/otsimo/-/otsimo-1.8.15.tgz#5c331dad3a500659e8941c44178605c17a4fe96b"
+
+otsimo@1.8.24:
+  version "1.8.24"
+  resolved "https://registry.yarnpkg.com/otsimo/-/otsimo-1.8.24.tgz#daaac7df608697d2f7188d0af49a914d8905f5d5"
 
 pako@~0.2.0:
   version "0.2.9"

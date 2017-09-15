@@ -888,7 +888,7 @@
         "fixed_size": false,
         "max_item": 4,
         "cell_anchor": {
-            "x": 0.5,
+            "x": 0.9,
             "y": 0.5
         },
         "horizontal": {
@@ -1458,7 +1458,7 @@
         }
     },
     "ending_scene": {
-        "victory_sound": "congratulations",
+        "victory_sound": "victorySound",
         "duration": 1000,
         "text": {
             "text": "Congratulations",
@@ -1487,7 +1487,7 @@
                 "multiplier": 0.3,
                 "constant": 0
             },
-            "tts": true
+            "tts": false
         },
         "button": {
             "delay": 4200,

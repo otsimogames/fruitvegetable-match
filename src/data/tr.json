@@ -884,7 +884,7 @@
         "fixed_size": false,
         "max_item": 4,
         "cell_anchor": {
-            "x": 0.5,
+            "x": 0.9,
             "y": 0.5
         },
         "horizontal": {
@@ -1482,7 +1482,8 @@
             "y": {
                 "multiplier": 0.3,
                 "constant": 0
-            }
+            },
+            "tts": false
         },
         "button": {
             "delay": 4200,

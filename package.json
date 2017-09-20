@@ -1,6 +1,6 @@
 {
     "name": "otsimo-fruitvegetable-match",
-    "version": "1.7.56",
+    "version": "1.7.61",
     "description": "",
     "repository": {
         "type": "git",
@@ -10,9 +10,18 @@
     "license": "GPL-3.0",
     "homepage": "https://github.com/otsimogames/fruitvegetable-match",
     "dependencies": {
+        "@types/mime-types": "^2.1.0",
+        "@types/node": "^8.0.28",
+        "@types/node-fetch": "^1.6.7",
+        "@types/request": "^2.0.3",
+        "aws-sdk": "^2.119.0",
         "babel-runtime": "^6.6.1",
-        "otsimo": "1.8.15",
-        "otsimo-matching-game": "1.8.19"
+        "mime-types": "^2.1.17",
+        "node-fetch": "^1.7.3",
+        "otsimo": "1.8.24",
+        "otsimo-matching-game": "1.8.22",
+        "request": "^2.82.0",
+        "typescript": "^2.5.2"
     },
     "scripts": {
         "test": "eslint js/*.js",
@@ -41,6 +50,7 @@
         "gulp-uglify": "^1.5.1",
         "gulp-usemin": "^0.3.16",
         "gulp-util": "^3.0.7",
+        "md5-file": "^3.2.2",
         "require-dir": "0.3.2",
         "run-sequence": "^1.1.5",
         "vinyl-buffer": "^1.0.0",

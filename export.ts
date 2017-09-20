@@ -232,8 +232,8 @@ async function upload(all: asset.Material[]) {
     }
 }
 
-function exportMats() {
-    const datas = readJsonFiles(['src/data/en.json', 'src/data/tr.json', '../fruitvegetable-choose/src/data/en.json', '../fruitvegetable-choose/src/data/tr.json']);
+export function exportMaterials(files: string[]) {
+    const datas = readJsonFiles(files);
     const mats = generateMaterialGroups(datas);
     let all = []
     for (let m of mats) {
@@ -244,6 +244,5 @@ function exportMats() {
         .catch(err => console.error(err))
 }
 
-exportMats();
 
 

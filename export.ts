@@ -5,12 +5,9 @@ import { assetSvc, fileMan } from './services';
 import * as asset from './services/asset';
 import * as filesvc from './services/file';
 import * as mimetypes from 'mime-types';
-import AWS = require('aws-sdk');
-import S3 = require('aws-sdk/clients/s3');
 import * as request from 'request';
 
 const { exec } = require('child_process');
-const md5File = require('md5-file/promise')
 
 interface GameJsPreload {
     name: string
@@ -209,7 +206,6 @@ async function uploadFile(file: string, meta: filesvc.FileMetadata, autoSend: bo
 
 async function upload(all: asset.Material[]) {
     console.log(JSON.stringify(all, null, '  '))
-    let t = new AWS.S3();
     for (let m of all) {
         for (let c of m.components) {
             if (c.value.url) {
@@ -218,7 +214,6 @@ async function upload(all: asset.Material[]) {
                 }
                 console.log('start to upload', m.name, c.key)
                 let meta = new filesvc.FileMetadata();
-                //meta.checksum = await md5File(c.value.url)
                 meta.type = mimetypes.lookup(c.value.url) || 'application/octet-stream'
                 meta.collection = 'asset'
                 meta.key = m.name + "/" + path.basename(c.value.url);

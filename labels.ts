@@ -1,5 +1,6 @@
 import * as asset from './services/asset'
 import { assetSvc } from './services'
+import { readJsonFiles, GameJsWithMaterial } from './export'
 
 function selectorOf(key: string, values: string[] | string, operator: asset.LabelSelectorOperator = asset.LabelSelectorOperator_In) {
     const s = new asset.LabelSelector()
@@ -22,7 +23,7 @@ async function allMaterials(selector: { [key: string]: string } = {}) {
     query.showDisabled = false
     query.labelSelector = selector
     const res = await assetSvc.listMaterial(query)
-    console.log('found', res.ids.length, 'materials[s]')
+    console.log('found', res.ids.length, 'material[s]')
     return Promise.all(res.ids.map((id) => assetSvc.getMaterial(id)))
 }
 
@@ -32,10 +33,15 @@ async function materialsByName(names: string[]) {
     query.ignoreComponentSpec = true
     const res = await assetSvc.listByMaterialSpec(query)
     const ids = Object.keys(res.materials);
-    console.log('found', ids.length, 'materials[s]')
+    console.log('found', ids.length, 'material[s]')
     return Promise.all(ids.map((id) => assetSvc.getMaterial(id)))
 }
 
+function materialsOfData(file: string): string[] {
+    const data = readJsonFiles([file])[0]
+    const ms = (data as any as GameJsWithMaterial)[data.game.answers_from]
+    return ms.map(m => m.id);
+}
 
 function updateLabels(id: string, labels: { [key: string]: string }) {
     const req = new asset.UpdateMaterialRequest()
@@ -131,4 +137,10 @@ async function main_numbers() {
     return Promise.all(mats.map(m => completeNumberLabels(m)))
 }
 
-main().catch(console.error)
+async function main_fruit_labels() {
+    let mats = await materialsByName(materialsOfData('./src/data/en.json'))
+    console.log(mats.map(m => m.name))
+    return null;
+}
+
+main_fruit_labels().catch(console.error)

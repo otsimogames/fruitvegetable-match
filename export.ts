@@ -40,7 +40,7 @@ interface GameJs {
     },
 }
 
-interface GameJsWithMaterial {
+export interface GameJsWithMaterial {
     [key: string]: GameJsMaterial[]
 }
 
@@ -48,7 +48,7 @@ interface MaterialGroup {
     [language: string]: GameJsMaterial
 }
 
-function readJsonFiles(files: string[]): GameJs[] {
+export function readJsonFiles(files: string[]): GameJs[] {
     const read = files.map(f => {
         let t: GameJs = JSON.parse(fs.readFileSync(f).toString('utf-8'))
         let ss = f.split('/')

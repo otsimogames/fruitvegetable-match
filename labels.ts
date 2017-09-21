@@ -104,7 +104,11 @@ async function completeNumberLabels(mat: asset.Material) {
     lb['level'] = '1';
     return updateLabels(mat.id, lb)
 }
-
+async function main() {
+    let mats = await allMaterials()
+    console.log(mats.map(m => m.name))
+    return null
+}
 
 async function main_color() {
     let mats = await allMaterials({ 'type': 'color' })
@@ -124,7 +128,7 @@ async function main_name() {
 async function main_numbers() {
     let mats = await materialsByName(['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'])
     console.log(mats.map(m => m.name))
-    return null;
+    return Promise.all(mats.map(m => completeNumberLabels(m)))
 }
 
-main_numbers().catch(console.error)
+main().catch(console.error)
